@@ -1,0 +1,2 @@
+class TalePost < ApplicationRecord
+end

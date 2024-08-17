@@ -1,0 +1,7 @@
+<h1>My Tales</h1>
+<% @tale_posts.each do |tale_post| %>
+<div>
+    <h2><%= link_to tale_post.title, "tale_posts/#{tale_post.id}" %></h2>
+    <p><%= tale_post.body %></p>
+</div>
+<% end %>

@@ -9,10 +9,11 @@
 # #   end
 # tale1 = TalePost.new()
 # tale1.title = "Part I"
+tale1 = TalePost.find_by(title: "Part I")
 tale1.body = <<~CONTENT
-  She clocked out of her office and rushed to her moped in the parking lot. She tied her hair into a bun, wore a helmet, tucked the loose end of her saree into her waist, and drove away. A green-coloured saree with an off-white coloured blouse was the dress code at her workplace. Driving on an empty road with trees on either side, she navigated all the distractions and carefully contemplated her next steps to win the daily evening game at home.
+    She clocked out of her office and rushed to her moped in the parking lot. She tied her hair into a bun, wore a helmet, tucked the loose end of her saree into her waist, and drove away. A green-coloured saree with an off-white coloured blouse was the dress code at her workplace. Driving on an empty road with trees on either side, she navigated all the distractions and carefully contemplated her next steps to win the daily evening game at home.
 
-"It isn't a win until he agrees. We are totally in the lead, but who knows, he might try to pull a sneaky move. I am sure he wouldn't have any planned move, and we shouldn't be too competitive and lose ideas to him like we did with the 'labelling the sock' argument. Let's play dumb and let him figure out his moves. So you will be playing a naive housewife but don't be too naive to fall into his trap. I also think we should add more depth to the character."
+  "It isn't a win until he agrees. We are totally in the lead, but who knows, he might try to pull a sneaky move. I am sure he wouldn't have any planned move, and we shouldn't be too competitive and lose ideas to him like we did with the 'labelling the sock' argument. Let's play dumb and let him figure out his moves. So you will be playing a naive housewife but don't be too naive to fall into his trap. I also think we should add more depth to the character."
 
 She loosened her hand on the accelerator, drifted into the side lane, and drove slowly, pondering over it.
 

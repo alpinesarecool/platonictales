@@ -11,11 +11,11 @@
 # tale1.title = "Part I"
 tale1 = TalePost.find_by(title: "Part I")
 tale1.body = <<~CONTENT
-    She clocked out of her office and rushed to her moped in the parking lot. She tied her hair into a bun, wore a helmet, tucked the loose end of her saree into her waist, and drove away. A green-coloured saree with an off-white coloured blouse was the dress code at her workplace. Driving on an empty road with trees on either side, she navigated all the distractions and carefully contemplated her next steps to win the daily evening game at home.
+      She clocked out of her office and rushed to her moped in the parking lot. She tied her hair into a bun, wore a helmet, tucked the loose end of her saree into her waist, and drove away. A green-coloured saree with an off-white coloured blouse was the dress code at her workplace. Driving on an empty road with trees on either side, she navigated all the distractions and carefully contemplated her next steps to win the daily evening game at home.
 
-  "It isn't a win until he agrees. We are totally in the lead, but who knows, he might try to pull a sneaky move. I am sure he wouldn't have any planned move, and we shouldn't be too competitive and lose ideas to him like we did with the 'labelling the sock' argument. Let's play dumb and let him figure out his moves. So you will be playing a naive housewife but don't be too naive to fall into his trap. I also think we should add more depth to the character."
+    "It isn't a win until he agrees. We are totally in the lead, but who knows, he might try to pull a sneaky move. I am sure he wouldn't have any planned move, and we shouldn't be too competitive and lose ideas to him like we did with the 'labelling the sock' argument. Let's play dumb and let him figure out his moves. So you will be playing a naive housewife but don't be too naive to fall into his trap. I also think we should add more depth to the character."
 
-She loosened her hand on the accelerator, drifted into the side lane, and drove slowly, pondering over it.
+  She loosened her hand on the accelerator, drifted into the side lane, and drove slowly, pondering over it.
 
 "Remember that housewife from our recent bank visit? Despite her documents being perfect, the bank people kept her waiting and raised doubts about her documents, expecting a commission. But she was kind, pleasing, and patient. She never lost her temper arguing about her rights but spent her waiting time as if she owned all the time in the world, helping old people with their forms. Finally, it was the bank people who were moved down to her and processed her loan. Let's play her. I think perseverance with kindness and a pleasing attitude would add a little depth to the character."
 
@@ -575,243 +575,460 @@ tale1.save!
 
 # tale2 = TalePost.new()
 # tale2.title = "Part II"
-# tale2 = TalePost.find_by(title: "Part II")
-# tale2.body =
-#   <<~CONTENT
-#             An irrational fear had sprung him out of his meditative state to consciousness. He hadn't opened his eyes yet, he tried to handle that fear by reciting the wise words his wife had said to him last night after he woke her up unable to handle the anxiety.
-#         "It is okay to feel scared about the result of the play, with the first two plays having left a feeling of dissatisfaction".
-#     "Don't give much of a thought to the outcome and the excitements associated with it"
-# "Just stay with the things that are in your control"
-# While reciting them he checked the presence of the anxiety in him, he found it but didn't acknowledge it. He couldn't comfort himself with those words for long. He felt deceived that those wise words didn't have the same effect as they had last night. He tried to keep his spirits up, imagining the consequences of the success of the play. It made him feel confident and thought that he had been in a meditative state for a long time and expecting everyone to have risen from their states open his eyes and only to his surprise he found all the players and crew were still in their meditation. He raises and walks up to the coach who is supervising them while surfing through the script papers. The Coach was the earlier Playmaker. Gardening, writing, reading, nothing could keep him away from boredom after retirement. He visited the theatre again, players and the crew felt encouraged with his presence and availability around. As the Playmaker got closer to the Coach, he became reflective about himself and all the inflated confidence fell short of his record, he quickly realized it and inflated it further ignoring his wife's words not to fantasize too much about the outcome.
+tale2 = TalePost.find_by(title: "Part II")
+tale2.body =
+  <<~CONTENT
+      An irrational fear had sprung him out of his meditative state to consciousness. He hadn't opened his eyes yet, he tried to handle the fear by reciting the wise words his wife had said to him last night after he woke her up, unable to handle the overwhelming anxiety.
 
-# The coach kept the script aside and welcomed the pensive-looking Playmaker into his company and waited for the players and the crew to rise from their meditative state and allow them to talk.
-# The youngest of the players and the crew began to arise from their meditation making loud noise and making others rise of theirs.
-# Coach muffled in this noise to the Playmaker, "Both versions of the script look intact, we should stick to them"
-# The Playmaker extended his ears to him with a pre-meditative idea of rejecting whatever the coach was going to say, "I cannot hear you"
-# Coach cleared his throat and increased his volume, "I was saying, both versions look great, let's stick to one of the versions"
-# "Why do you suggest so? From ages, all our plays involved the audience into the play."
-# "Yes. I am worried about the impact of its result on you. I want you to keep it simple and have your fair share of satisfaction for your work."
-# "I understand, thank you for your concern. But I am confident we are going to pull it off this time and get past that point smoothly."
-# The Playmaker was not sure, he was shaken from the inside and his trembling hands reflected it.
-# "It doesn't seem so. Are you sure?"
-# "If you are speaking to me with my past two plays in mind. I tried. Not everything is in my control. I am learning. I am confident about this play, it can smoothly involve the audience."
-# Before the coach could speak the playmaker challenged him, "You wanna take a bet for your fish."
-# He absorbed the Playmaker's blustering swagger and remained silent.
-# One of the crew members rushed hurriedly towards the Playmaker and informed him that the sample audience group was ready for the narration.
-# The Playmaker rose and paused to accept the wishes from the Coach. As he walked towards the group he realized that the smile on the coach's face, while wishing, wasn't complementing his wishes and that smile on his face resembled a mockery stating that he won't be able to achieve it in this play as well. It bothered him and it started to make him angry he tried to make peace with his anger, but he had reached the group of audience waiting for him. He walked into them and they formed a semicircle around him. The group involved people of diverse age groups. Having a glance at them, he took a heavy breath.
+    "It is okay to feel nervous about the result of the play, with the first two plays having left a feeling of dissatisfaction.
+Don't give much thought to the outcome and the excitement associated with it.
+Just stay with the things that are in your control"
 
-# "Alright! Here we all are for the ritual before every play. ohh I see a few new kids today. Welcome!. Here is what we do, I will be narrating you a story and will stop the narration after a point and you will be watching a play and getting the rest of the story through the acts of the play. If you want to leave, feel free to leave now but not in between. Most importantly stay back after the play, we want to hear from you."
+While reciting them he checked for the presence of the anxiety in him, he found it but he chose to ignore it. He couldn't comfort himself with those words for long. He felt deceived that those wise words didn't have the same effect as they had last night. He tried to keep his spirits up, picturing the consequences of the play's success and it made him feel confident. An intense feeling that he had been in a meditative state for a long time and the expectation that everyone might have risen from their states made him open his eyes. To his surprise, he found all the players and crew still meditating. He rose and walked over to the coach, who was supervising them while flipping through the script pages. The coach had once been the Playmaker. Gardening, writing, reading, nothing could keep the boredom away from him after retirement. He went back to the theatre again, and his presence and availability boosted the morale of the players and crew. As the Playmaker got closer to the Coach, he became reflective about himself and all the inflated confidence fell short of his record, he quickly realized it and inflated it further ignoring his wife's words not to fantasize too much about the outcome.
 
-# `Four teens are in search of the author of the nameless manuscript that they have found on their train journey. Searching for the author they visited our village. While they were travelling on the boat one of the four started to spot similarities between the place mentioned in the manuscript and our village. By the time they reached the bank of our village, crossing the river, the teen was confident that the author was from our village. His confidence doubled when he found out that the boat driver's name is the same as the last name of the hero from the manuscript.`
+The coach kept the script aside and welcomed the pensive-looking Playmaker into his company. He waited for the players and the crew to emerge from their meditative state so they could talk. The players and the crew began to arise from their meditation making loud noise and making others rise from theirs.
 
-# "Did our boat driver write a book?" queried a curious kid from the group.
-# Other keen listeners gasped at this interruption, this had been a worry to them every time a new kid joined them for a narration.
-# "Who knows? I don't know?" the Playmaker currently in the shoes of the narrator blurted
-# "Didn't you write the play based on what happened?" the curious kid asked warily.
-# Others from the group sighed in disappointment and exclaimed.
-# "This kid is ruining the experience"
-# "No question while listening."
-# "Travel with your doubts till the end of the play?"
-# "They will be answered."
-# This kept the curious kid on the spot and made him uncomfortable. The narrator noticed it and he lifted his arms upwards and flapped his palms towards the ground. Repeating this gesture, he suppressed the heat of the crowd.
-# "Well it's okay with him being a first-timer, but all of your queries would be answered by the end of the play." He made the kid feel comfortable.
+Amidst the noise, the Coach muffled to the Playmaker, "Both versions of the script look intact, we should stick to one of them"
 
-# `Moving on... the teen who had a hunch that the author is from our village spoke to them about the similarities he had found with the other three friends, as they walked towards our town centre. They listened to him, they asked him questions about how he was so sure that the author was from this village. He answered them and when he felt they were convinced he proposed an idea to stay back and look for the author in this town. The other three denied the proposal bluntly saying that they could take the risk of not finding the author in another town by spending all their time in this village. They have struck a pamphlet saying they are looking for the author of the lost manuscript and walk back towards the boat leaving the curious teen there with a plan that they would be catching the early morning train exactly two days from now.`
+The Playmaker extended his ears to him with a pre-meditative idea of rejecting whatever the coach was going to say, "I cannot hear you"
 
-# `On the river bank our boat driver noticed only three of them had returned, he gathered the whereabouts of the 4th teen and asked his friend to row them to the other side and hurried towards the town centre. `
+Coach cleared his throat and raised his volume, "I was saying, both versions look great, let's stick to one of the versions"
 
-# `At the town centre the teen was alone with his backpack, he went on asking everyone, showing them the manuscript, if they had written it or if anyone they knew could have possibly written it. All he got in return as replies were hysterical laughs which meant nothing less than "No one from this village could have ever written a book like this". The boat driver ran towards him and bent down panting for breath. Between his breaths, he uttered that he went looking for him all around the town centre.`
+"Why do you suggest so? From ages, all our plays involved the audience into the play."
 
-# `The teen being an outsider, our boat driver told him about the complication with the food and shelter in our village and took him to his house. Along the way, he inquired the teen roughly with whom he had spoken about the book and what had each one of them told him. The teen noticed a tinge of anxiety in the boat driver while asking him the questions and also found him to be relieved when he discovered that the teen hadn't got any leads on who the author was. Though this made the boat driver  his only suspect, he didn't have any hypothesis for why the boat driver would deny writing it, and it left him pondering?`
-# `At home, while having dinner, the teen asked him many questions that arose in him while reading the manuscript, about how come such a town exists managing their social need and slowly steered towards if they ever travelled out of the village and how they felt about it when they come back. Our boat driver went at length answering that question but the teen uninterested in the answer waited for him to finish to ask him the most relevant question which "When was the last time you went out of the town, to which the boat driver answered it's been a long time". The teen wished it was a lie, yet he asked him "When you went out of the village did you travel in trains or busses? Do you like travelling in trains". The teen looked for any exhibits of nervousness or tension on the boat driver's face in the form of sweat, or avoiding eye contact and he found a few to his satisfaction.
-# `
+"Yes, but I am worried about the impact of its result on you. Your emotional state is deteriorating with the failure of the plays. I want you to keep it simple this time and have your fair share of satisfaction for your work."
 
-# `Next morning the boat driver insisted on staying with the teen and followed him to the village centre. The boat driver amused himself at the plight of the teen, who after realizing that none of the people, gathered around the pamphlet, stuck to the tree's trunk could actually read it, had to stretch his mouth, to let them know what was written on it to everyone who had their curious eyes on it. Our Boat driver saved the teen some pain by, pointing out folks who seemed to have no chance of knowing the author. The boat driver himself informed the fellow villagers about the contents of the pamphlet and queried if they knew anyone who could have possibly written the manuscript. `
+"Thank you for your concern. But I am confident, we will pull it off this time and get past that point smoothly."
 
-# `Tired but without any luck he along with the boart driver reached home in the evening for dinner. The teen couldn't sleep that whole night, he couldn't think of any other plan to find the author. Worried, he goes through the manuscript in hope of some idea, late in the night. A squeaking noise caused a tremble in him it was the cupboard door. He opened the cupboard to fix the sound, and all the things from the cupboard fell down. The cupboard was overfilled. The teen looked around and checked if the noise had woken the boat driver up. He began to place one thing after the other back inside the cupboard. He found a book among them. The boat driver can write that's what he thought after going through the text written in the book. The teen is not sure if that was the boat driver's writing. If asked the boat driver would deny it as his, he thought when the opportunity came he would ask it stealthily. It exemplified his hypothesis why does one hide their ability to read and write?  and how can one abandon the book they have so much time to finish? Yet no reasoning suited his satisfaction.`
-# `He went through the manuscript, and he identified a couple of characters with characteristics from the manuscript that had similarities with the characters he met during the day. He found an idea that soon formulated into a plan. He extracted all the primary characters and their characteristics and his gut told him one of them is either the author or knows the author. As we went through the extracted list of characters, he had a quick recollection that the boat driver, that morning, had prevented one of the villagers from reaching him, saying that he was not one of the probable. This made him confident that it was the boat driver and that character knew it was the boat driver. The next morning he asked the boat driver to take him to the list of characters and start with that one character who was prevented from reaching him. The boat driver, as expected by the teen, tried to prevent the teen from speaking to him but the teen insisted. The teen also spilt some tea on one of the papers and pretending to be busy, requested the boat driver to fill it up, the boat driver for a moment picked up the pen beside him but quickly and smartly, as the teen felt, avoided it by saying I know him and I know where he would be currently.`
+The Playmaker was not certain as he mentioned, he was shaken from the inside and his trembling hands reflected it.
 
-# `They visited each and every one and came back home by evening with futile results. But during a visit with one of the characters, the character and the boat driver had gone into a conversation to which the teen was all ears. They spoke about the boat driver's recent visit to the town exactly the day on which they found the manuscript. The teen did not raise any questions but the boat driver's denial of going out on a train only gave him more information to believe that it is the boat driver who is the author of the manuscript. The boat driver must have realized the contradictory information he had shared with the teen and that character and tried to convince the teen saying he was just lying to the character as the character wanted him to take him out sometime. But the teen discarded it as a lie. The teen had some hypothermia that may be not everything that could be rationally explained just like their journey in search of the author. If they were to be rational they should have left the manuscript at the station master and continued their journey back home.`
+"It doesn't seem so. Are you sure?"
 
-# `While having lunch with the boat driver he found the boat driver to be very kind to him and the teen considered it as a sign of guilt for lying and the teen thought by being more honest to him the boat driver himself out of unbearable guilt might tell the truth. The teen expressed his melancholy that he is not hopeful despite his efforts and mentioned that he had to leave by the next morning he asked the boat driver for a means to reciprocate for all the privileges he enjoyed in the village. The boat felt sorry for him and suggested the teen teach map curation at their Montessori. That afternoon after their lunch the teen visited the Montessori and taught the kids there.`
+"If you are still speaking to me with my past two plays in mind. I tried. Not everything lies in my control. I am learning. I am confident about this play, it can smoothly involve the audience."
 
-# "We end our story here, thank you"
-# "Well did our boat driver tell him that he is the author?" the kid from the audience group asked impulsively without any hesitation.
-# All the members of the audience, "shh!"
-# "Now we will be watching the remaining story in the form of a play."
-# "Enjoy the play"
-# The Playmaker turned back and climbed up the stairs beside the curtain. The curtain rose slowly. The set resembled a waiting room between the entrance and the Principal's room. Four kids of the teen's age are waiting each with a paper in their hands under the supervision of their teacher who was preventing them from having a conversation. These kids however gesture to each other not to be scared showing the papers in their hands. Soon they came up with more ways to communicate among themselves only for the sake of irritating the teacher.
-# One of the four was very stern and looked obedient, he didn't move an inch he seemed to be scared of what might happen to them, he was reciting something. He didn't participate in the communication that teased the teacher. He frequently looked at his paper and began to get nervous.
+Before the coach could speak the playmaker challenged him, "You wanna take a bet for your fish."
 
-# The director was seated beside the coach watching the performance from the side view. The coach captivated by the performance of the obedient kid said "he is nailing it". The director, looked at the coach with trepidation  "Do you really know what is happening there, I am afraid he might ruin the play. No doubt he is acting really good and that's what is going to ruin the play. He had captivated and drawn all the attention of the crowd, but by now the crowd should be and would be rooting for the teen to find the author and with no other way around and with limited time for him before leaving the place they would be wanting him to confront the boat driver. His act will make them forget all of it.".
-# The director's cue called the character to walk out from the principal's cabin. The player playing the teen was behind the prop door, which was being held by a person hidden from the audience's view. The character playing the teen walked out and the other guys pulled the door slowly at an angle, giving an effect of it being closed by the wind. He, upon noticing the four under the supervision of the professor asked
-# "What happened?"
-# the three of them said equivocally, "They suspected us of spreading a rumour"
-# "a rumour?"
-# "some silly one to laugh at and not a serious one to feel sad about. but this guy... you know we even apologized to him"
-# pointing at the papers "Are these apologies?"
-# "Nah, we were asked to write the rumour as we have heard it and they want to know who created it based on how much we know from what we wrote  and matching them against others"
-# It seemed to have struck some idea in him, "You mean you told it to one of these two and one of them told it to another and it spread..." "Yes kind of but they traced it to us as the root"
-# "Have they reached the correct root?"
-# "it's for them to deduce, fairly good so far"
-# "good luck then"
-# "Sure! See you tomorrow"
-# "I'll be leaving early in the morning, I may not see you"
-# "did you find the author?"
-# He remained silent
-# "you should try some ideas of our principal"
-# The four exited the stage walking into a door with the title - Principal.
-# The curtain dropped the set was quickly set up for the principal's cabinet and the curtain raised.
-# Inside the Principal's cabinet, the four gathered around him and the school bell rang, all of them had their attention towards the windows and the principal was the first among them but the teacher got all of them back to the situation they were dealing with. With the help of the teacher, the Principal read their writings, "This guy seems to have created the rumour because his version pretends to be the least upgraded and it also to an extent has the roots of the rumour in it. Principal looked at him and the kid responded that he did not do it." Peon knocked on the door with a word from the principal's wife, "Madam has arrived and is waiting for you", and he was deported with the message that he would be joining her soon. The principal looks at all four and the teacher, three of them except the obedient kid are happy that the principal is going to leave and they would be relieved. The obedient kid uncharacteristically joins them. The Principal says he has some work and the wife says please, he asks the professor to put it on him and suspend him and warn the other three.
+He absorbed the Playmaker's blustering swagger and remained silent. One of the crew members hurried towards the Playmaker and informed him that the sample audience group was ready for the narration. The Playmaker rose and paused to accept the wishes from the Coach. As he walked towards the group, he pondered the expression on the Coach's face. While wishing, he felt it didn't complement his words, and that smile on his face resembled a mockery, suggesting that he wouldn't be able to achieve success in this play either. It bothered him, and it started to make him angry. He tried to make peace with his anger, but he had already reached the group of the audience waiting for him. He walked into them, and they formed a semicircle around him. The group included people of diverse age groups. Glancing at them, he took a heavy breath.
 
-# The teen player visited the boat driver in the morning as he was about to leave. They spoke of the things that make them feel lighter and while the train leaves the teen player asks the boat driver if he had missed to say something and he says 'NO'. "I am sorry if I had given you the impression that I am the author."
 
-# As soon as the play was over a few of them stayed back clapping while the others inclined to leave, left. "Thank you all, See you at the play in the evening" the director called out as they left.
+"Alright! Here we all are for the ritual before every play. Oh, I see a few new kids today. Welcome! Here's what we do: I’ll be narrating a story, and after a certain point, I’ll stop, and you’ll watch the rest unfold through the acts of the play. If anyone wants to leave, feel free to do so now, but please not in the middle. Most importantly, stay back after the play—we want to hear your thoughts."
 
-# The director couldn't face the elderly man as their eyes met. He went straight to the kid, who played the obedient kid in the play. He was along with his fellow players changing back to normal from the rehearsal costumes and enjoying the praise from them. The Playmaker walked in and shouted, "How do you think you performed?"  The obedient lad didn't turn back, feeling for that person, he continued to stuff his bags, he was quite sure that anger wasn't directed towards him. For a long moment, there was no reply and he had to turn back with his unbuttoned shirt flying around. He was panic-struck when he noticed the Playmaker, with his hands folded, staring at him in rage. He looked around embracing the embarrassment, and everyone kept themselves occupied with their things like he kept himself busy with packing his bags  "How dare you steal the show?"
-# "I didn't, I was just..."
-# "you were just...? you weren't providing cues to anyone"
-# "when someone comes up with a great idea, your act undermined it instead of toying with it"
-# "you know what? you are selfish and you don't suit this theatre"
-# "I am not selfish" Selfish is one of those tags one hated being called in that village, where everyone shared everything.
-# "You are and you better get to terms with it"
-# He felt he might be looked down and tears started rolling down his eyes, he resorted back to his bag and he removed everything from the bag and started to stuff it again. Other players left after they had changed and packed their stuff, a few of them pat on his back. He was angry with the playmaker as an actor and with this debut in a few hours, he didn't want to entertain the anger but he was not able to control it he began to hate himself with that anger. He badly wanted to be beside his friend. She is the person who had helped him many times in such situations, he always cried his pain to her and she would soothed him. He is not on talking terms with her. He hated himself for fighting with her. Suddenly he felt helpless and began to hate himself more than the Playmaker. He had to convince himself by giving himself hope that he would go meet her, apologize to her and become friends with her.
-# The coach walked in and the lad tried to hide his sorrow. "you still around, I almost locked it"
-# The lad said "About to leave"
-# The coach noticed quavering in the lad's voice and walked up to him and the lad's eyes revealed that he was crying.
-# "what happened"
-# "Nothing"
-# "you can save those lies and drama for the stage, now tell me what hurt you"
-# After a long fight with holding back his tears, he cried "He called me selfish" and sobs.
-# "oh man cmon, never mind, you played the character you were given. He must have called that character selfish, that character is supposed to be selfish fearing for himself. You did a great job acting that role, you even pulled off the meticulous details."
-# The lad tries to clear the tears on his face.
-#  "You know what? therein lay the very problem, it drew the attention of the crowd. It is not your fault you are supposed to draw the audience's attention and hold them captive as you did, but only when we are performing a classic. But in this play, your role's objective is to present what the crowd is anticipating, we would gather cues from your act and with that information we decide which climax to play in favour of audience expectation."
-# The lad remains silent without uttering a word with his head dropped down and his elbows resting on the thighs.
-# The coach waited for him to say something, "Did you get it?" "Say yes, say no"
-# The kid feebly said "yes".
-# Coach rubbed on the kid's back
-# "You know when I was around your age,  to be an actor was the only dream but couldn't get the act right I was terribly bashed. I felt really bad and thought that would add complications to my getting the act right. The more I thought the more worse my feelings became. I have decided to spend the day alone, with the activity I like until the playtime. I went out fishing, I let the bait in and was wandering when suddenly a fish caught the bait, soon another and soon another and by the end of the day I caught 29 fish. I was elated in joy and I came to perform No thought about what had happened during that morning came across, I went on to the stage with lots of confidence and I was very satisfied with myself when the audience clapped. My teacher clapped too on my exit. All I want to say is forget about it and think of something that brings you joy".  The lad felt lighter after listening to this. But the idea that put him on this path of feeling lighter, to meet and apologize to her, has become a courageous pursuit.
-# "Sure," he said to the Coach.
-# The lad gathered his things and exited the auditorium. He found his wild pet dog waiting for him. He rushed to it and cleared the dust on it.
-# He followed behind the dog to home, he changed his course onto a small bridge over the river. The dog saw it and joyously entered that path and led him. They visited his friend's house but she wasn't there at the house. His pet took him around the places where she might be and he rushed behind it. They didn't find her at any of those places. Disappointed, they both travel back home, he served food to it as his mother served food to him.
-# He with his pet went and met his friend on the river bank, adjacent to the forest and requested him for the boat. Leaving the pet on the river bank to play and warning not to go into the wild he rowed into the river and stuck his boat between the rocks.
-# He baited the hook with a worm and cast it into the river. Minutes pass by, and his thoughts surround around his history and look for the instances where he was selfish. Not a single fish caught the bait but his thoughts caught the instances from his past that prove him to be selfish. The more he resisted the more clear the thoughts became where he denied having something though he had it when a friend asked him. He made peace with himself that he would say sorry to him but an excuse followed, would that make his friend think that he had gone crazy to say sorry for this small thing after years? No matter what I am gonna say sorry and never behave that way.
-# He reeled in the line and checked the hook, only to find that the fish had cleaned off the bait without getting caught. Glancing at the sleeping pet he changed the bait and cast it into the river again. An hour passed by, and no fish took the bait, but his thoughts travelled to many such instances where he was selfish. Bothered by them and unable to find a resolution he continued to wait hoping for luck. During this time to keep himself pleasant he began to recollect the memories he shared with her. The moment they became friends after doing mischief at school, the fun they had at their family outing outside the village, and the way they became like-minded in having opinions about their village lifestyle. The gifts they exchanged for their birthdays. He felt the fishing rod to be heavy for a second as he steered it up it felt loose and he tried to resume back at the thought he was wandering about -- birthday- it was her birthday-- it reminded him of the instance that caused a rift between them both on that day she asked him to go with her around the scenic places of the village, but he refused her wish and went to play mud games with his other friends. He thought that it was his mistake, and suddenly a thought, if he was selfish in that instance occurred to him and his thought was read out loud to him in the playmaker's voice you were selfish, "had you refused it for acting it wouldn't have been selfish but you had refused it for your own pleasure of playing in the mud which you could have easily compromised on but you chose to compromise on her". He couldn't accept it and felt ashamed. He tried to make himself feel better by comparing himself with the guy who came from outside in search of the author in the matter of selfishness but soon refrained from comparing himself with an outsider who can purposefully act selfish. Time flew very slowly and it was painful for him. As the sun was about to set he gave up on catching the fish and rowed towards the bank. His pet on the riverbank is being intimidated by a hare, he calls out the pet not to get into a fight with it. The pet dog jumped at the hare and the hare ran into the woods. The pet chased it into the woods. He quickly jumped into the water near the bank pulled the boat to the bank tied it and rushed into the woods in search of his pet. He is scared about the life of the pet. He looked all around, he hated himself for listening to some silly advice and imitating it. He had tears rolling down his eyes, the play might have started already and he couldn't find his pet. He found himself in the most helpless situation ever. He had a choice to make whether to give up the play about which he is most passionate or give up the pet in the hope of it returning tomorrow morning. He decided to give up his debut and with determination went around looking for the pet. He found the pet taking a few steps behind to jump across a small stream of water. He called out loud for it and it looked behind.
-# He rushed to play, across the streets of the village, with his pet behind him.
+`Four teens are in search of the author of a nameless manuscript they found during their train journey. Their quest led them to our village. While travelling by boat, one of the teens began noticing similarities between the places described in the manuscript and our village. By the time they crossed the river and reached the village bank, the teen was convinced that the author was from here. His confidence doubled when he discovered that the boat driver's name was the same as the last name of the hero of the manuscript.`
 
-# As he arrived at the theatre he heard a huge laughter from the crowd and he had a peek at the stage, it was the comic scene where the teen is finding it difficult for food and shelter in their village without money. He rushed to the backstage, all the while feeling nervous about what might they say to him. He is surprised that the director didn't ask him anything about being late. He went to change his costume and noticed a new guy, his friend was in his role's costume, being attended by a make-up man. The coach was telling him what he needed to do. He walked up to the coach but the coach didn't pay him any attention. He gathered some courage and said "I'm sorry that I am late",
-# "You don't have to be, but you have to postpone your debut, he will be playing your role today"
-# "We still have time for my entrance"
-# "not your entrance anymore, we promised him that he would be playing it"
-# "I lost my pet in the woods and I was scared of it becoming prey to the wild, I went out for it"
-# "well you had your priorities"
-# "I cannot let it become a prey, I am lucky to be here. I would have been called selfish by you all had I left it there to become prey and came here to act."
-# The coach sighed and asked "What do you want me to do now"
-# "Ask the playmaker for my role back"
-# "We already offered it to him, that would be impossible"
-# "You didn't even try."
-# "We already offered it to him"
-# "Well one of us is going to be disappointed today,  I'll blame it all on you and your dumb fishing story. I was foolish to imitate your story hoping things would turn out like they did for you. I rather have lived it my way by finding her and spending time with her. Not even a single fish caught the hook."
-# The coach took the fault on him and he walked to the backstage. The stage is being set for the scene where the teen discovers the boat driver can read and write. He found a moment of playmaker's time and said
-# "He is back, and is ready to play"
-# "yes I saw him, but we gave his role to another person"
-# "I know, he had some genuine reason for not being here on time"
-# For a brief moment, the playmaker didn't respond and the coach continued
-# "ignoring his reasons and him being late for a moment. The risk of failure with an actor who hasn't rehearsed is higher. The new guy, forgetting about suggesting the information for the change of course of the play, may bomb his act. He hasn't rehearsed. The obedient kid can at least pull the role he is given. Who knows what effect the word you used had on him? He might even perform better."
-# The playmaker pondered for a while and was called by the crew for some instructions. As he went there, the coach interrupted him, "What did you think"
-# "I am not going to say it to the new guy"
-# Coach with a smile of relief on his face said "Thank you"
+"Did our boat driver write a book?" queried a curious kid from the group.
 
-# The Coach walked back to the two lads who were in anticipation and anxiety.
-# "I need you for a moment", the coach called away the replacement kid who was feeling anxious.
-# "I am sorry to say this, you won't be debuting today".
-# The kid is disappointed on hearing this but he doesn't make any protest
-# "You will be making a debut soon, I promise you."
-# "I need to rush, I have to let my parents know that I am not playing."
-# The kid rushed away as the obedient kid stared at him.
+Other keen listeners gasped at this interruption, this had been a worry to them every time a new kid joined them for a narration.
 
-# Coach ordered the make-up man to make the lad for the character. As the make-up man applied make-up the lad sweated a lot and the make-up man asked him to relax and not think about anything. "I am trying but I cannot help it.". "don't try just stop it, what happened to all the valour that you exhibited a few minutes ago". He sweats more and "I will tell them to use that lad for the play if you sweat yourself". "I am scared after all this if I disappoint" He drinks some water and just gets his make-up done.
-# Four kids of the teen's age are waiting each with a paper in their hands under the supervision of their teacher who was preventing them from having a conversation. These kids however gesture to each other not to be scared showing the papers in their hands. Soon they came up with more ways to communicate among themselves only for the sake of irritating the teacher.
+"Who knows? I don't know?" the Playmaker currently in the shoes of the narrator blurted
 
-# After the bad day, this lad couldn't recollect any of the expressions he had prepared. He managed to act based on the cues from his fellow actors and tried to irritate the teacher.
-# The director on the backstage commented "he is neither stealing the show nor his existence is recognizable. Looks like he camouflaged into the background"
-# The director's cue called the character to walk out from the principal's cabin. The player the teen was behind the prop door, which is being held by a person hidden from the audience's view. The character playing the teen walked out and the other guys pulled the door slowly at an angle, giving the effect of it being closed by the wind. He, upon noticing the four under the supervision of the professor asked
-# "What happened?"
-# the three of them said equivocally, "They suspected us of spreading a rumour"
-# "a rumour?"
-# "some silly one to laugh at and not a serious one to feel sad about. but this guy... you know we even apologized to him"
-# pointing at the papers "Are these apologies?"
-# "Nah, we were asked to write the rumour as we have heard it and they want to know who created it based on how much we know from what we wrote  and matching them against others"
-# It seemed to have struck some idea in him, "You mean you told it to one of these two and one of them told it to another and it spread..." "Yes kind of but they traced it to us as the root"
-# "Have they reached the correct root?"
-# "it's for them to deduce, fairly good so far"
-# "good luck then"
-# "Sure! See you tomorrow"
-# "I'll be leaving early in the morning, I may not see you"
-# "did you find the author?"
-# He remained silent
-# "you should try some ideas of our principal"
-# The four exited the stage walking into a door with the title - Principal.
-# The curtain dropped the set was quickly set up for the principal's cabinet and the curtain was raised.
-# Inside the Principal's cabinet, the four gathered around him and the school bell rang, all of them had their attention towards the windows and the principal was the first among them but the teacher got all of them back to the situation they were dealing with. With the help of the teacher, the Principal read their writings, "This guy seems to have created the rumour because his version pretends to be the least upgraded and it also to an extent has the roots of the rumour in it. Principal looked at him and the kid responded that he did not do it."
-# "He didn't read them thoroughly equivocally"
-# "Don't lie"
+"Didn't you write the play based on what happened?" the curious kid asked warily.
 
-# Peon knocked on the door with a word from the principal's wife, "Madam has arrived and is waiting for you", and he was deported with the message that he would be joining her soon.
-# The principal looks at all four and the teacher, three of them except the obedient kid are happy that the principal is going to leave and they would be relieved. The obedient kid uncharacteristically joins them.
-# The principal turned to the next person's letter, "you going to skim it too?" said the lad
-# Principal looked at him in shock, "Upon finding us guilty if you are intending to punish us, please read it thoroughly."
-# The peon knocked on the door but the principal didn't signal him in. He went on reading through them marking them.
+Others from the group sighed in disappointment and exclaimed,
+"This kid is ruining the experience.
+No questioning while listening.
+Travel with your doubts till the end of the play.
+They will be answered.
 
-# The lights went dark and the Narrator narrated - "Having picked up an idea from the lads the teen looked for any secret that existed in the manuscript and found that the boat driver while rowing back his boat, flipped and someone rescued him from drowning. No one knew about it."
-# The teen was at the river bank with the manuscript waiting for the boat driver. He arrived tied up his boat and sat beside him.
-# "Did you share it with anyone?"
-# "I shared with my girlfriend"
-# "And do you have trust in her?"
-# "She wouldn't share it with anyone"
-# "How about the rescuer"
-# "He may have"
-# "Can I meet both of them"
-# "Wait near the tree I will bring them there"
+This kept the curious kid on the spot and made him uncomfortable. The narrator noticed it and he lifted his arms upwards and flapped his palms towards the ground. Repeating this gesture, he suppressed the heat of disappointment in the crowd.
 
-# The teen waited near the tree and the boat driver arrived with his girlfriend.
-# "Have you told about this to anyone"
-# "no"
-# "How can I believe you?"
-# "I wouldn't popularize my fiance with this kind of story, my parents would not offer me to him"
-# Soon the rescuer arrived upon asked the same question to him
-# "I am sorry I told it to the actor on the stage when I felt his performance would be better if he was provided with some inside info about the village so that when he becomes a part of his act would be considered as improvisation, but he stopped talking to me for sharing that."
-# "did you share it with anyone else"
-# "no"
-# "Did anyone possibly overhear you guys"
-# The rescuer said "I shared it with the actor in the water ambulance probably the medic overheard about it"
+"Well it's okay with him being a first-timer, but all of your queries would be answered by the end of the play." He made the kid feel comfortable.
 
-# They visited the play that evening, waited for the play to finish and found their way into the actor's chambers. The actor was in the middle of clearing his makeup. He took the teen away from everyone.
-# He said that he had not written any book and he continued "Ever since I heard the story my act dominated other players' acts and that affected the play and I was not being given good roles.
+`Moving on... the teen who suspected that the author was from our village shared his thoughts with his friends as they walked toward the village centre. They listened intently, asking him how he was so certain that the author was from this village. He explained his reasoning, and when he felt they were convinced, he proposed staying back to search for the author here. However, the other three bluntly rejected the idea, arguing that they might risk missing the author in another town if they spent all their time in this village. Instead, they put up a pamphlet announcing that they were looking for the author of the lost manuscript and began walking back to the boat. They left the curious teen behind with the plan that they would catch the early morning train exactly two days from now.`
 
-# The clock ticked and he had a train to catch at 4 AM.
-# The boat ambulance was nowhere to be seen.
-# The boat driver helped him by rowing it to the ambulance and the medic in the ambulance said he had overheard it but he neither had time to write it nor had any interest in it to share it with anyone.
+`On the riverbank, our boat driver noticed that only three of the teens had returned. Concerned, he inquired about the whereabouts of the fourth teen. After learning what had happened, he asked his friend to row the three back to the other side and quickly hurried towards the village centre.`
 
-# They rushed to the other end of the river. The boat driver knocked on his friend's house. Collected the bike and they travelled to the railway station. With the fear of missing it at one stop, they headed to the next stop.
-# They were alone in that station and were silent.
-# The teen embracing his efforts
-# "I guess this is the first time in my life I didn't give up, irrespective of the result. We play roller hockey back at home and I am the most scared one and often get injured. I always blamed myself for inducing the effect of giving up on my teammates. It has become a part of us, it made us lazy and luxurious. But when you said your name I found it to be the one mentioned in the book. I thought it was you, I wanted to know who it was. But deep inside I was scared and I wanted to hear from you. I am satisfied that I tried."
-# The boat driver doesn't say a thing the train arrives and he boards the train.
-# On parting boat driver says "I am sorry if I have given any sign that leads you to think it is me."
+`Somewhere in the village, away from the centre, the teen found himself alone with his backpack. Determined, he went around asking everyone he encountered, showing them the manuscript and asking if they had written it or if they knew anyone who might have. His questions were met with nothing but hysterical laughs, as if to say, "No one from this village could have ever written a book like this." Just then, the boat driver came running towards him, bending over and panting for breath. Between gasps, he said that he had been searching for him all around the village centre.`
 
-# The play ends
-# All of them are happy, crowd whistles and claps.
-# All the actors are called onto the stage and they bow down to the crowd and the director addresses the crowd. The obedient kid spotted his girlfriend in the crowd their eyes clocked and she responded with cheer to his smile.
-# "Thank you! We have seen the most patient crowd today who didn't guide us in jumping to conclusions".
-# They recognized at a distance in the crowd a tourist to the village clapping out of rhythm, quite appreciatively and the entire cast and crew's faces were filled up with smiles and satisfaction.
+`The teen, being an outsider, was informed by the boat driver that no tourist stays overnight in the village due to their socialist way of living, where food is bartered among the villagers. Concerned for the teen’s well-being, he took him to his house. As they walked, the boat driver roughly inquired about whom the teen had spoken to regarding the book and what each person had said. The teen couldn't help but notice a hint of anxiety in the boat driver's questions and sensed his relief upon learning that the teen hadn't gotten any leads on who the author might be. This odd behaviour made the boat driver his only suspect, but the teen was left puzzled, unable to form a clear hypothesis as to why the boat driver would deny writing it. The thought lingered in his mind, leaving him deep in contemplation.`
 
-# The curtains rolled down and they exited the stage and the Playmaker patted on the obedient lad's back and said "Great job".
+`At home, during dinner, the teen asked the boat driver numerous questions that had arisen while reading the manuscript, probing into how such a town could manage its social needs. He gradually steered the conversation towards whether the boat driver had ever travelled outside the village and how he felt about returning. The boat driver provided an elaborate response, but the teen, uninterested in the lengthy explanation, waited patiently to ask the most crucial question: "When was the last time you went out of town?" The boat driver answered that it had been a long time.
 
-# The obedient kid walked to the crew and met the guy who didn't protest for the role and admitted to him
-# "I am very sorry for creating false hopes and expectations in you and your family. It was very selfish of me to demand my role back. I am very grateful to you had you not given that chance I would have never realized my selfishness. While performing I came to realize what it means to be selfless. Thank you very much and please forgive me.".
-#   CONTENT
-# tale2.save!
+The teen wished the answer was a lie but proceeded to ask, "When you went out of the village, did you travel by train or bus? Do you like travelling by train?" As he asked, he watched for any signs of nervousness or tension on the boat driver's face, such as sweating or avoiding eye contact. He noticed a few signs that seemed to confirm his suspicions.`
+
+`The next morning, the boat driver insisted on staying with the teen and accompanied him to the village centre. The boat driver took some amusement in the teen’s predicament. After discovering that none of the people gathered around the pamphlet, which was stuck to the tree's trunk, could read it, the teen had to stretch his voice to relay the contents to everyone with curious eyes on the flyer.
+
+To alleviate the teen's frustration, the boat driver pointed out individuals who seemed unlikely to know the author. He also took the initiative to inform his fellow villagers about the pamphlet's contents and inquired if they knew anyone who could have possibly written the manuscript. `
+
+
+`Exhausted but still without any leads, the teen returned home with the boat driver in the evening for dinner. That night, he couldn’t sleep, unable to come up with any new plans to find the author. Worried and restless, he reviewed the manuscript late into the night, hoping for some inspiration.
+
+A squeaking noise startled him—it was the cupboard door. When he opened it to fix the sound, everything inside fell out; the cupboard was overstuffed. He ensured that the noise had not disturbed the boat driver and started to place the items back inside. Among them, he discovered a book. Upon examining its text, he considered the possibility that the boat driver could write. He wasn't sure if the handwriting matched, but he thought that if asked, the boat driver would likely deny authorship. The teen resolved to question him subtly when the opportunity arose.
+
+The discovery fueled his curiosity about why someone would hide their ability to read and write and abandon a book they had invested a lot of time and effort into. Despite his contemplation, he couldn't find a satisfactory explanation.`
+
+`He meticulously reviewed the manuscript and identified a few characters whose traits resembled those of people he had encountered earlier in the day. An idea began to take shape, forming into a plan. He compiled a list of all the primary characters and their characteristics, trusting his intuition that one of them was either the author or knew the author. As he reviewed the list, he remembered that the boat driver had blocked one of the villagers, who bore similarities to a character, from reaching him that morning, claiming that he was not a likely candidate.
+
+This led him to believe with increasing certainty that the boat driver was the author, or at the very least knew who the author was. The next morning, he asked the boat driver to take him to see the list of characters, starting with the one who had been prevented from reaching him. As expected, the boat driver tried to deter the teen from speaking to this individual, but the teen persisted.
+
+The teen deliberately spilt some tea on one of the papers and, while pretending to be busy, asked the boat driver to help by writing up the content that had been erased by the spill. The boat driver momentarily picked up a pen but then deftly avoided the task, saying he knew where the character lived.`
+
+`They visited every person on the list and returned home by evening with no promising results. However, during one of their visits, the teen overheard a conversation between the boat driver and one of the characters. They were discussing the boat driver’s recent trip to the town, precisely on the day the manuscript was discovered. The teen listened intently but kept his questions to himself. The boat driver's denial of travelling by train only reinforced the teen's suspicion that he might be the manuscript’s author.
+
+Realizing that his conflicting statements had been noticed, the boat driver tried to explain that he had lied to the character because the character had wanted him to take him out sometime. The teen dismissed this explanation as a lie.
+
+Feeling a sense of unease, the teen acknowledged that not everything like the reasoning behind the author leaving the manuscript could not be explained rationally. Reflecting on their journey, he thought that, if they were completely rational, they would have left the manuscript with the station master and returned home instead of pursuing it further.`
+
+`During lunch with the boat driver, the teen observed the boat driver’s unusually kind demeanour, which he interpreted as a sign of guilt. Believing that honesty might prompt the boat driver to reveal the truth, the teen expressed his disappointment and lack of hope despite his efforts. He mentioned that he would have to leave the next morning and asked the boat driver how he could repay the kindness he had received.
+
+Moved by the teen’s situation, the boat driver suggested that he teach map curation at their Montessori. The teen agreed and, after lunch, spent the afternoon at the Montessori, teaching the children there.`
+
+“We end our narrative here. Thank you!”
+
+“Well, did our boat driver tell him that he is the author?” a kid from the audience group asked impulsively, without any hesitation.
+
+The rest of the audience shushed him.
+
+“Now we will watch the remaining story in the form of a play.”
+
+“Enjoy the play!”
+
+The Playmaker turned back and climbed the stairs next to the curtain. As the curtain rose slowly, a waiting room between the entrance and the Principal's office came into view.
+
+Four kids, all around the teen's age, sat there, each gripping a piece of paper, while their teacher kept a strict eye on them, ensuring they stayed silent.
+
+Despite the teacher's efforts, the kids exchanged nervous glances, gesturing to one another not to worry and subtly showing their papers. Their initial signals soon turned into more inventive ways to communicate, mainly to annoy the teacher.
+
+But one of the four stood out—stern, obedient, and frozen in his seat. Fear seemed to grip him, and he muttered something under his breath, his eyes repeatedly darting to the paper in his hand. Unlike the others, he didn’t join in their attempts to tease the teacher, his growing anxiety evident as he grew more fidgety by the minute.
+
+The director sat next to the coach and watched the performance from the wings. The coach, mesmerized by the way the obedient kid captured his role, leaned in and murmured, "He’s nailing it". The director glanced at the coach, his voice tinged with trepidation. "Do you really know what's happening out there? I’m afraid he might ruin the play. No doubt, he’s acting well—too well. That’s exactly what’s going to wreck this. He’s captivated the audience, and drawn all their attention. But by now, they should be rooting for the teen to find the author, desperate for him to confront the boat driver with time running out. His performance is making them forget all of that."
+
+The Playmaker cued the actor playing the fourth teen to step out from the principal's office. Hidden behind the prop door, which was held by an unseen crew member, the teen character walked out. The crew member discreetly pulled the door at an angle, creating the illusion that it had been closed by the wind. In the lobby, the teen character noticed the others standing under the teacher’s watchful eye and asked, "What happened?"
+All three said equivocally, "They suspected us of spreading a rumour"
+
+"a rumour?"
+
+"some silly one to laugh at and not a serious one to feel sad about. but this guy... you know we even apologized to him"
+
+pointing at the papers "Are these apologies?" the teen-character queried
+
+"Nah, we were asked to write down the rumour as we heard it. They want to determine who started it based on how much we know from what we wrote and by comparing it with what others have written."
+
+The teen-character's eyes widened as a new idea struck him. "You mean, you told one of these two, and then one of them passed it on to someone else, and it just spread from there..."
+
+"Yes, sort of. They traced it back to us as the source."
+
+"Have they identified the correct source?"
+
+"It's for them to determine. It seems fairly accurate so far."
+
+"Good luck then."
+
+"Thanks! See you tomorrow."
+
+"I'll be leaving early in the morning, so I might not see you."
+
+"Did you find the author?"
+
+He stayed silent.
+
+"You should try some of the principal’s ideas."
+
+The four exited the stage, stepping through a door marked "Principal." As the curtain fell, the set was quickly reconfigured to resemble the principal's office. When the curtain rose again, the scene was set.
+
+Inside the principal's office, the four students gathered around the principal as the school bell rang. All eyes turned to the windows, with the principal being the first to glance outside. The teacher swiftly refocused their attention on the task at hand. With the teacher's assistance, the principal examined their writings. "This student appears to be the origin of the rumour," he said. "His account is the least updated and still retains elements from the original story."
+
+The principal fixed his gaze on the accused student, who adamantly denied any involvement. Just then, a peon knocked on the door and relayed a message: "Madam has arrived and is waiting for you." The principal instructed the peon to return, saying he would join her shortly.
+
+Turning to the four students and the teacher, the principal noted that three of the students, excluding the obedient one, looked visibly relieved at the prospect of his departure. The principal explained that he had urgent matters to attend to, which his wife had insisted upon. He directed the teacher to deal with the situation by suspending the accused student and warning the other three.
+
+The stage shifted to a riverbank, and the scene unfolded on a boat drifting silently on the water, just before sunrise.
+
+The teen and the boat driver exchanged thoughts on the things that lightened their spirits. As the scene shifted to the railway station, the train loomed in the background. The teen turned to the boat driver and asked, “Did you forget to say something?”
+
+The boat driver shook his head, replying, “No,” and then added, “I’m sorry if I gave you the impression that I am the author.”
+
+As the play concluded, some members of the audience lingered, applauding warmly, while others, ready to leave, began making their way out. The director, watching them go, called out, "Thank you all! We look forward to seeing you at the evening performance."
+
+The director and coach's eyes met, and the director quickly averted his gaze in embarrassment, heading straight for the kid who played the obedient role in the play. Surrounded by fellow actors who were changing out of their rehearsal costumes and basking in each other's praise, the Playmaker stormed in and demanded, "How do you think you performed?"
+
+The obedient kid, engrossed in packing his bags, did not turn around. He was certain the anger wasn’t aimed at him. After a moment of silence, he reluctantly turned, his shirt flapping as he spun around. His face went pale as he saw the Playmaker standing before him, arms folded, eyes blazing with fury. The others, sensing the tension, busied themselves with their tasks, leaving him to face the director’s wrath alone.
+
+"How dare you steal the show?" the Playmaker snapped.
+
+"I didn’t, I was just—"
+
+"Just what? You weren’t giving cues to anyone."
+
+"When someone comes up with a great idea, your act undermined it instead of building on it."
+
+"You know what? You're selfish and you don’t belong in this theatre."
+
+"I’m not selfish." The term stung, a harsh reminder of the village where sharing was everything, and selfishness was despised.
+
+"You are, and you’d better come to terms with it."
+
+After the playmaker left, the kid felt the sting of possible judgment from his fellow actors. Tears began to roll down his cheeks as he hastily emptied and repacked his bag. One by one, the other players left, having changed and gathered their belongings, some offering a sympathetic pat on his back as they went.
+
+Anger at the playmaker simmered within him, but with his debut looming in just a few hours, he didn’t want to let it consume him. Instead, he found himself overwhelmed by self-loathing, a feeling magnified by his current predicament. He longed for the comfort of his friend, the one who had always been there to help him through such moments, to whom he’d confided his pain and who had soothed him.
+
+Yet, they were not on speaking terms. He despised himself for the fight they’d had. The more he dwelled on his anger and frustration, the more he began to detest himself, even more than he hated the playmaker. In his desperation, he clung to the hope that he could make amends. He vowed to himself that he would reach out to her, apologize, and mend their friendship, hoping it would ease the self-reproach that had taken hold of him.
+
+The coach entered the room and noticed the obedient-kid's efforts to conceal his distress. “You’re still here? I nearly locked up,” he remarked.
+
+The obedient-kid, his voice barely audible, replied, “Just about to leave.”
+
+Sensing the tremor in the obedient-kid’s voice, the coach approached him. It quickly became apparent from the tear-streaked face that the obedient-kid was struggling.
+
+“What’s wrong?” the coach asked softly.
+
+“Nothing,” the obedient-kid mumbled, his voice quivering.
+
+The coach’s patience wore thin. “Save the drama for the stage. What’s bothering you?”
+
+After a moment of fighting back his tears, the obedient-kid finally burst out, “He called me selfish,” and began to sob.
+
+The coach’s tone softened. “Oh, come on. Don’t let that get to you. He probably meant the character, not you personally. The character was meant to be selfish, and driven by fear. You played that role perfectly and captured all the details. You did a great job.”
+
+The obedient-kid wiped his tears, seeking comfort in the coach’s reassuring words.
+
+ "You know what? That’s precisely the issue. It drew too much attention to the character. It’s not your fault; you’re meant to captivate the audience, and you did that perfectly. But only when we are performing a classic. In plays like these, your role's objective is to reflect the anticipation of the audience. We use your performance to gauge their reactions and decide which climax to present based on their expectations.”
+
+The obedient-kid remains silent without uttering a word with his head dropped down and his elbows resting on the thighs.
+
+The coach waited for him to say something, "Did you get it?" "Say yes, say no"
+
+The obedient-kid feebly said "Yes".
+
+Coach rubbed on the kid's back
+
+You know," the coach began, "when I was around your age, being an actor was my only dream. But I couldn’t get the act right and ended up being terribly bashed for it. I felt awful and thought it would only complicate my performance even more. The more I dwelled on it, the worse my feelings became. I decided to spend the day alone, doing something I loved until it was time for the play. I went out fishing, cast my line, and wandered a bit. Suddenly, a fish caught the bait, then another, and by the end of the day, I’d caught 29 fish. I was overjoyed. When it was time for the play, not a single thought of the morning’s failure crossed my mind. I stepped onto the stage with confidence, and I was very satisfied when the audience clapped. My teacher did too, on my exit. All I want to say is, forget about this and focus on something that brings you joy".
+
+The obedient-kid felt lighter after listening to the coach’s story. But the idea that put him on this path of feeling lighter, to meet, apologize to her and become friends with her, has now become a courageous pursuit.
+
+"Sure," he said to the Coach.
+
+The obedient kid gathered his belongings and left the theatre compound, where his wild pet dog awaited him eagerly. He rushed over, brushing the dust from its fur. Playfully, he cupped the dog's face and asked with a grin if it was hungry.
+
+
+He walked closely behind his dog, matching its every step. At a crossing, the pet paused after a few strides, expecting to hear the familiar sound of footsteps. When the expected sound didn’t come, it turned back and saw that he had veered from their usual path onto a small bridge spanning the river. Overcome with immense joy, the pet rushed toward him, barking with exuberance and a hint of melancholy. He bent down and lovingly brushed his hand over the pet's head.
+
+The dog led him along the path he had chosen, beginning to rush ahead. He had to run to keep up with it. They visited his friend’s house, but she wasn’t there. The pet took him to various places where she might be, and he followed, but they found no sign of her. Disappointed, they made their way back home. He served food to his pet as his mother served food to him.
+
+They quickly finished their meal, brushing off his mother's concern that they might choke from eating too fast. Without delay, they rushed to the riverbank beside the forest, where he hoped to ask a friend for a small fishing boat.
+
+Leaving his pet on the riverbank to play, he gently reminded it not to wander into the wild. He rowed into the river and skillfully wedged his boat between the rocks, ensuring it wouldn't drift with the stream.
+
+He baited the hook with a worm and cast it into the river. As minutes passed, his thoughts drifted to the past, searching for moments of selfishness. No fish took the bait, but his mind latched onto a memory that confirmed his guilt. The harder he tried to push it away, the clearer it became: a time when he denied having something, even though he did, when a friend had asked for it. He resolved to apologize, but doubt crept in. Would his friend think of him as crazy for bringing it up after all these years? Still, he decided, no matter what, he would apologize and never act that way again.
+
+He reeled in the line and checked the hook, only to find that the fish had cleaned off the bait without getting caught. Glancing at his sleeping pet, he changed the bait and cast it into the river once more. An hour slipped by, but no fish took the bait. His thoughts, however, began to reel in memories of other moments when he had been selfish. Bothered by these thoughts and unable to find resolution, he continued to wait, hoping for luck.
+
+To keep his spirits up, he started recalling the happier memories he shared with her—the day they became friends after pulling a mischievous prank at school, the fun they had during the family outing outside the village, and how they both grew to hold similar opinions about their village lifestyle. He thought of the lengths they went for the gifts and the gifts they exchanged for each other's birthdays.
+
+As he drifted through these memories, the fishing rod suddenly felt heavy in his hand, but when he lifted it, the weight disappeared. He tried to return to his thoughts about her—specifically, the birthday. It was her birthday, and that memory brought to mind the instance that had caused a rift between them. She had asked him to join her in exploring the scenic spots around the village, but he had refused, choosing instead to play mud games with his other friends.
+
+He realized it was his mistake, and the nagging thought crept in: was he selfish at that moment? As if responding to his unspoken question, a voice from deep within, echoing like the playmaker's, spoke to him: "You were selfish. If you had refused because of an obligation for a play or rehearsal, it wouldn’t have been selfish, but you refused for the sheer pleasure of playing in the mud with your friends—something you could have easily compromised on, yet you chose to compromise on her wish instead."
+
+Shame washed over him, and he struggled to accept this harsh truth. In a futile attempt to make himself feel better, he compared his actions to those of the guy who had come from outside the village in search of the author, reasoning that selfishness was almost expected in someone so focused on their goal. But he quickly dismissed the comparison, recognizing that it wasn’t right to excuse his behaviour by comparing himself to an outsider who unlike people from their village might act selfishly for a purpose.
+
+Time dragged on, each moment heavier than the last, and the painful realization weighed on him. As the sun dipped toward the horizon, he finally gave up on catching any fish and began to row back toward the bank, feeling the burden of the day’s reflections.
+
+His pet, on the riverbank, was being intimidated by a hare. He called out, urging the dog not to engage, but the dog lunged at the hare. The hare darted into the woods, and his pet gave chase. Panic surged through him. He rowed quickly the boat towards the bank, jumped into the water, pulled the boat ashore, tied it up, and rushed into the woods in search of his pet.
+
+He followed the trail of his pet’s barks through the bushes, but when the sound vanished, he pursued the movement of the bushes, which led him deeper into the forest. He found himself in a dense part of the woods, where both the sound of his dog’s barking and the sight of moving bushes had disappeared. Desperate, he wandered through the thick foliage, calling out for his pet with mounting fear. His heart raced with the dread of what might have happened to the dog, his tears mingling with the forest’s shadows as he searched in vain.
+
+He looked all around, hating himself for following and imitating the Coach's misguided advice. Tears rolled down his cheeks as he realized the play might have already started and he was still unable to find his pet. He felt utterly helpless. Faced with the agonizing choice between giving up his debut—the thing he was most passionate about—or abandoning his search and hoping the pet would return by morning, he chose to forgo his debut. With renewed determination, he continued his search for the pet, unwilling to give up. As he pushed deeper into the forest, he finally caught sight of his pet in the distance, poised to jump across a small stream of water. With a relieved shout, he called out to the dog, who turned and looked back at him.
+
+He sprinted through the village streets toward the theater, his pet bounding alongside him, matching his pace with eager strides.
+
+As he arrived at the theatre, he was greeted by the sound of uproarious laughter from the crowd. Peering through the entrance, he saw the stage illuminated by the comedic scene where the teen-character discovered that none of the villagers could read the pamphlet stuck to the tree's trunk.
+Relieved that his act was still some time away, he scanned the audience for her. His eyes lit up when he spotted her, laughing and enjoying the scene with the crowd. With a mix of nervousness and anticipation, he made his way backstage, bracing himself for any remarks from the Playmaker about his tardiness. To his surprise, the Playmaker said nothing about his late arrival. He went to change into his costume and noticed a new face, his friend, dressed in the role’s costume and being attended by a makeup artist. The coach was instructing him on what needed to be done. Gathering his courage, he approached the coach, but the coach didn’t acknowledge him. Taking a deep breath, he said, “I’m sorry that I’m late.”
+
+“You don’t have to be, you may have to postpone your debut,” the coach said. “He will be playing your role today.”
+
+“But we still have time for my entrance,” he protested.
+
+“Not your entrance anymore. We promised him he would be taking your part.”
+
+“I lost my pet in the woods,” he explained. “I was afraid it might become prey to the wild, so I went out to find it.”
+
+“Well, you had your priorities,” the coach said.
+
+“I couldn’t let it become prey,” he insisted. “I’m lucky to be here at all. Not only the Playmaker, but the entire village would have seen me as selfish if I’d left the pet to fend for itself and come here to act.”
+
+The coach sighed and asked, “What do you want me to do now?”
+
+“Ask the Playmaker for my role back.”
+
+“We already offered it to him; that would be impossible.”
+
+“You didn’t even try.”
+
+“We already offered it to him.”
+
+“Well, one of us is going to be disappointed today,” he said sharply. “I’ll blame it all on you and your dumb fishing story. I was foolish to imitate your story, hoping things would turn out like they did for you. I would have preferred to live it my way, finding her and spending time with her. Not a single fish even bit the hook.”
+
+
+The makeup artist, shocked by the tone of the obedient kid, paused mid-application, his eyes wide with surprise. The new kid, his substitute, glanced at the coach with a pleading look, silently urging him to resolve the conflict in his favor.
+
+Embarrassed by the unfolding situation, the coach’s stern demeanor softened. He took a deep breath, trying to balance his authority with an understanding of the emotional weight of the moment. “I understand you’re frustrated,” the coach said, his voice gentler. “I’m sorry things didn’t turn out as you hoped. I didn’t mean to make it worse.” He gestured toward the new kid and the makeup artist. “I’ll see if there’s any way we can make this right.”
+
+The coach took responsibility and walked backstage, where the stage was being prepared for the scene where the teen discovers the boat driver can read and write. He sought out the Playmaker, who was overseeing the setup.
+
+"He’s back and ready to play," the coach said, catching a moment of the Playmaker’s attention.
+
+The Playmaker looked up, his expression unreadable. “Yes, I saw him, but we gave his role to another kid.”
+
+The coach persisted, “I know. He had a genuine reason for not being here on time.”
+
+"ignoring his reasons and him being late for a moment. The risk of failure with an actor who hasn't rehearsed is higher. Forget about the new-kid suggesting to us the information for the change of course of the play he may bomb the actual play. The obedient kid can at least pull the role he is given. Who knows what effect the word you used had on him? He might even perform better."
+
+The playmaker pondered for a while and was called by the crew for some instructions. As he went there, the coach interrupted him, "What did you think"
+
+"I am not going to say it to the new-kid"
+
+Coach with a smile of relief on his face said "Thank you"
+
+The Coach walked back to the two kids, both filled with anticipation and anxiety.
+"I need to speak with you for a moment," the coach said, calling over the anxious new substitute.
+
+The obedient kid, though shifting nervously, kept his ears tuned to their conversation.
+
+"I’m sorry to say this," the coach began, "but you won’t be debuting today."
+
+The new kid’s face fell with disappointment, but he made no protest.
+
+"You will get your chance to debut soon, I promise," the coach added reassuringly.
+
+"I need to rush, My parents would be expecting me on stage. I have to let them know."
+
+The kid rushed away as the obedient kid stared at him.
+
+
+The coach instructed the makeup artist to prepare the obedient kid for his role. As the artist worked, the obedient kid began to sweat profusely. The makeup artist noticed and said, “Relax and try not to think about anything.”
+
+“I’m trying,” the obedient kid replied, his anxiety evident, “but I can’t help it.”
+
+“Don’t try—just stop it,” the makeup artist urged. “What happened to all the courage you showed a few minutes ago?”
+
+The obedient kid’s sweating increased, and the makeup artist added with a hint of concern, “If you keep sweating like this, I might have to suggest using that other kid after all.”
+
+“I’m just scared,” the obedient kid confessed. “After all this, I don’t want to disappoint.”
+
+The make-up artist offered him some water and the obedient kid took a sip, attempting to calm himself.
+
+Four kids of the teen's age are waiting each with a paper in their hands under the supervision of their teacher who was preventing them from having a conversation. These kids however gesture to each other not to be scared showing the papers in their hands. Soon they came up with more ways to communicate among themselves only for the sake of irritating the teacher.
+
+On the stage, four kids, all around the teen's age, sat there, each gripping a piece of paper, while their teacher kept a strict eye on them, ensuring they stayed silent.
+
+Despite the teacher's efforts, the kids exchanged nervous glances, gesturing to one another not to worry and subtly showing their papers. Their initial signals soon turned into more inventive ways to communicate, mainly to annoy the teacher.
+
+After a challenging day, the obedient kid struggled to recall any of the expressions he had prepared. Relying on cues from his fellow actors, he joined them in their mischievous antics against the teacher.
+
+Backstage, the Playmaker, with a satisfied grin, reported to the coach, “He’s neither stealing the show nor making his presence felt. It appears he’s successfully blended into the background.”
+
+The director cued the actor playing the fourth teen to step out from the principal's office. Hidden behind the prop door, which was held by an unseen crew member, the teen character walked out. The crew member discreetly pulled the door at an angle, creating the illusion that it had been closed by the wind. In the lobby, the teen character noticed the others standing under the teacher’s watchful eye and asked, "What happened?"
+All three said equivocally, "They suspected us of spreading a rumour"
+
+"a rumour?"
+
+"some silly one to laugh at and not a serious one to feel sad about. but this guy... you know we even apologized to him"
+
+pointing at the papers "Are these apologies?" the teen-character queried
+
+"Nah, we were asked to write down the rumour as we heard it. They want to determine who started it based on how much we know from what we wrote and by comparing it with what others have written."
+
+The teen-character's eyes widened as a new idea struck him. "You mean, you told one of these two, and then one of them passed it on to someone else, and it just spread from there..."
+
+"Yes, sort of. They traced it back to us as the source."
+
+"Have they identified the correct source?"
+
+"It's for them to determine. It seems fairly accurate so far."
+
+"Good luck then."
+
+"Thanks! See you tomorrow."
+
+"I'll be leaving early in the morning, so I might not see you."
+
+"Did you find the author?"
+
+He stayed silent.
+
+"You should try some of the principal’s ideas."
+
+The four exited the stage, stepping through a door marked "Principal." As the curtain fell, the set was quickly reconfigured to resemble the principal's office. When the curtain rose again, the scene was set.
+
+Inside the principal's office, the four students gathered around the principal as the school bell rang. All eyes turned to the windows, with the principal being the first to glance outside. The teacher swiftly refocused their attention on the task at hand. With the teacher's assistance, the principal examined their writings. "This student appears to be the origin of the rumour," he said. "His account is the least updated and still retains elements from the original story."
+
+The principal fixed his gaze on the accused student, who adamantly denied any involvement.
+Inside the Principal's cabinet, the four gathered around him and the school bell rang, all of them had their attention towards the windows and the principal was the first among them but the teacher got all of them back to the situation they were dealing with. With the help of the teacher, the Principal read their writings, "This guy seems to have created the rumour because his version pretends to be the least upgraded and it also to an extent has the roots of the rumour in it. Principal looked at him and the kid responded that he did not do it."
+
+
+"He didn’t read them thoroughly," the obedient kid complained, casting a sharp glance at the teacher.
+
+"Don’t lie," the teacher retorted, visibly agitated.
+
+Just then, a peon knocked on the door and relayed a message: "Madam has arrived and is waiting for you." The principal, distracted momentarily, instructed the peon to return, saying he would join her shortly.
+
+The principal looked at all four and the teacher, three of them except the obedient kid are happy that the principal is going to leave and they would be relieved. The obedient kid uncharacteristically joined them.
+
+The principal, however, turned to the next letter. Before he could proceed, the obedient kid pressed, "You going to skim this one too?"
+
+The principal paused, taken aback by the boldness of the question. The obedient kid continued, "If you plan to punish us, at least read it thoroughly first."
+
+The peon knocked on the door, and the principal, engrossed in reading their letters, hesitated, visibly struggling with the decision to signal the peon in. Instead, he remained focused, continuing to read through each letter, marking them meticulously, while the room grew increasingly tense with every passing moment.
+
+The lights on the stage dimmed to darkness, and the Playmaker's voice resonated through the theatre as he narrated, "Inspired by a principal's method of probing the truth, the teen delved into the manuscript, searching for hidden secrets. He uncovered a secret buried within the lines—the boat driver, during one of his journeys, had capsized and nearly drowned, only to be saved by an unknown rescuer. A tale known to none but the waves of the river."
+
+The stage transformed into a riverbank on a moonless night. The teen stood by the water's edge, clutching the manuscript, his eyes scanning the dark expanse. Soon, the boat driver appeared, quietly securing his boat before joining him.
+"Did you ever tell anyone that your boat capsized and you nearly drowned?" the teen asked, his voice low but insistent.
+After a pause, the boat driver nodded. "I told my girlfriend."
+"I thought you'd deny it," the teen responded, watching the driver's face closely.
+The boat driver said nothing, his mind drifting back to that fateful day.
+"And you trust her?" the teen pressed.
+"She wouldn't tell anyone," the boat driver replied, with a hint of certainty.
+"And the rescuer?" the teen continued.
+"He might have," the boat driver admitted.
+"Can I meet both of them?" the teen asked.
+The boat driver hesitated for a moment before saying, "Wait near the tree. I’ll bring them to you."
+
+The teen waited near the tree, the shadows of the night stretching long and still. The boat driver returned, this time with his girlfriend by his side.
+
+"Did you tell anyone about what happened?" the teen asked her directly.
+
+She shook her head. "No."
+
+"How can I trust you?" the teen pressed.
+
+"I wouldn’t spread such a story about my fiancé," she replied firmly. "My parents wouldn’t let me marry him if they heard about this."
+
+Moments later, the rescuer arrived. The teen asked him the same question.
+The rescuer hesitated before confessing, "I’m sorry. I mentioned it to the actor on stage. I thought his performance might improve if he had some inside knowledge about the village, so it could be seen as improvisation. But after that, he stopped talking to me."
+
+"Did you tell anyone else?" the teen asked.
+
+"No," the rescuer responded, shaking his head.
+
+"Could anyone else have overheard?" the teen inquired.
+
+The rescuer paused, then added, "I told the actor while we were in the water ambulance. It's possible the medic overheard us talking about it."
+
+The stage transitioned to resemble the actor's chambers, with actors bustling about, changing out of their costumes and into their regular clothes. Amidst the activity, the actor, half-cleared of his makeup, noticed the teen and discreetly led him away from the others.
+
+In a hushed tone, he confessed, "I haven’t written any book." He paused, glancing around to ensure no one was listening, then continued, "Ever since I heard that story, my performance started overshadowing the others, and it threw off the balance of the play. Because of that, they stopped giving me good roles."
+
+The Playmaker’s voice resonated through the dimmed theatre, "As the clock struck 2 AM, the teen knew he had a train to catch at 4 AM, but the boat ambulance was nowhere in sight. The boat driver rowed frantically, turning this way and that, desperate to spot it. At last, they caught sight of the ambulance in the distance. When they reached it, the medic aboard admitted that he had overheard the story but assured them he neither had the time to write it down nor any interest in sharing it with anyone. They rushed to the other side of the river bank. They ran to the boat driver's friend's house and collected the bike. Together, they sped toward the railway station, their anxiety growing as they worried they might miss the train at one stop, forcing them to aim for the next."
+
+The stage transforms into a railway station, where the wind blows gently, scattering fallen leaves across the platform. The teen stands at the edge, reflecting on his efforts.
+
+"I guess this is the first time in my life I didn't give up, regardless of the outcome. We play roller hockey back home, and I'm always the most scared, often getting injured. I've always blamed myself for inducing the fear on my teammates. It’s become a part of us, making us lazy and complacent. But you know, when I heard your name, which was also mentioned in the manuscript, I thought it must be you. I wanted to confirm it was you. Deep down, I was scared and wanted to hear it from you. I am obviously sad I haven't found the author, but I’m satisfied that I tried and didn't give up."
+
+The boat driver remains silent as the train arrives. The teen boards, ready for his journey. As they part ways, the boat driver says, "I’m sorry if I gave any sign that led you to think it was me."
+
+As the play concluded, the theatre erupted in applause and whistles. The actors, radiant from their successful performance, took their positions on stage, bowing deeply to the enthusiastic crowd. The Coach embraced the Playmaker, who, despite the tears of joy glistening in his eyes, quickly composed himself. The Playmaker stepped forward, addressing the audience with heartfelt gratitude.
+
+"Thank you! We have witnessed the most patient crowd today, who allowed us to unfold our story without rushing to conclusions."
+
+Amidst the audience, the obedient kid spotted his girlfriend. Their eyes locked, and she responded to his smile with an exuberant cheer. In the distance, a tourist clapped out of rhythm but with evident appreciation, adding to the vibrant atmosphere.
+
+As the curtains gently closed, the cast and crew shared smiles of contentment. Backstage, the Playmaker approached the obedient kid and offered a reassuring pat on the back.
+
+"Great job," he said.
+
+The obedient kid walked over to the kid who should have played his role and, with genuine remorse in his voice, said, "I am very sorry for the circumstances that created false hopes and expectations for you and your family. It was selfish of me to demand my role back. I am deeply grateful to you; had you not taken that chance, I might never have realized my own selfishness. Performing tonight made me understand what it truly means to be selfless. Thank you very much, and please forgive me."
+  CONTENT
+tale2.save!
 # tale3 = TalePost.new()
 # tale3.title = "Part III"
 # tale3.body =

@@ -11,13 +11,15 @@
 # tale1.title = "Part I"
 tale1 = TalePost.find_by(title: "Part I")
 tale1.body = <<~CONTENT
-        She clocked out of her office and rushed to her moped in the parking lot. She tied her hair into a bun, wore a helmet, tucked the loose end of her saree into her waist, and drove away. A green-coloured saree with an off-white coloured blouse was the dress code at her workplace. Driving on an empty road with trees on either side, she navigated all the distractions and carefully contemplated her next steps to win the daily evening game at home.
+    I can feel all the muscles in my face tightening around my eyes. I resisted harder than ever. Now I can barely see as I post this to you.
 
-      "It isn't a win until he agrees. We are totally in the lead, but who knows, he might try to pull a sneaky move. I am sure he wouldn't have any planned move, and we shouldn't be too competitive and lose ideas to him like we did with the 'labelling the sock' argument. Let's play dumb and let him figure out his moves. So you will be playing a naive housewife but don't be too naive to fall into his trap. I also think we should add more depth to the character."
+  She clocked out of her office and rushed to her moped in the parking lot. She tied her hair into a bun, wore a helmet, tucked the loose end of her saree into her waist, and drove away. A green-coloured saree with an off-white coloured blouse was the dress code at her workplace. Driving on an empty road with trees on either side, she navigated all the distractions and carefully contemplated her next steps to win the daily evening game at home.
 
-    She loosened her hand on the accelerator, drifted into the side lane, and drove slowly, pondering over it.
+"It isn't a win until he agrees. We are totally in the lead, but who knows, he might try to pull a sneaky move. I am sure he wouldn't have any planned move, and we shouldn't be too competitive and lose ideas to him like we did with the 'labelling the sock' argument. Let's play dumb and let him figure out his moves. So you will be playing a naive housewife but don't be too naive to fall into his trap. I also think we should add more depth to the character."
 
-  "Remember that housewife from our recent bank visit? Despite her documents being perfect, the bank people kept her waiting and raised doubts about her documents, expecting a commission. But she was kind, pleasing, and patient. She never lost her temper arguing about her rights but spent her waiting time as if she owned all the time in the world, helping old people with their forms. Finally, it was the bank people who were moved down to her and processed her loan. Let's play her. I think perseverance with kindness and a pleasing attitude would add a little depth to the character."
+She loosened her hand on the accelerator, drifted into the side lane, and drove slowly, pondering over it.
+
+"Remember that housewife from our recent bank visit? Despite her documents being perfect, the bank people kept her waiting and raised doubts about her documents, expecting a commission. But she was kind, pleasing, and patient. She never lost her temper arguing about her rights but spent her waiting time as if she owned all the time in the world, helping old people with their forms. Finally, it was the bank people who were moved down to her and processed her loan. Let's play her. I think perseverance with kindness and a pleasing attitude would add a little depth to the character."
 
 She moved back, tilted her head a bit, and got a look at herself in the moped's rearview mirror with a smile of joy. A cool breeze brushed her cheek, broadening the smile on her face and amplifying her delight. All the excitement she had held at higher altitudes until then flew in, blinded her restraint and overwhelmed her to anticipate the ideas to act on after winning.
 
@@ -27,7 +29,7 @@ She moved back, tilted her head a bit, and got a look at herself in the moped's 
 
 "That part of the argument is over if you remember. Oh! you wouldn't possibly know it since you were just created. I’ve designed a few other characters and used them to address that issue, and we’ve successfully proven that living experience in bigger cities is better. It’s just that he couldn’t accept the defeat," she explained to her character as she neared his office.
 
-She parked her vehicle in the visitor's parking area, which was filled with women waiting for their fathers, brothers, or husbands to pick them up. Gathering her excitement, she walked toward the security guard. He was occupied with ensuring the safety of the waiting women but smiled as she approached him.
+She parked her vehicle in the visitor's parking area, which was filled with women waiting for their fathers, brothers, or husbands to pick them up. Gathering her excitement, she walked toward the security guard. He was occupied with ensuring the safety of the women but smiled as she approached him.
 
 "Sir said he might take some time."
 
@@ -39,7 +41,7 @@ She parked her vehicle in the visitor's parking area, which was filled with wome
 
 She walked back to her moped and waited with the other women. Her character-in-training said, "This is our chance. We should go home and prepare his favourite snack before he arrives."
 
-"That's an unexpectedly good idea," she agreed, beginning to tie her hair into a bun.
+"That's an unexpectedly good idea," she agreed, tying her hair into a bun.
 
 "Weren’t we supposed to be kind?" the character asked.
 
@@ -255,7 +257,7 @@ She took a moment to detach herself from the menu, looking up to meet his eyes. 
 
 "Well, I’ll have to try hard. Sometimes it doesn’t rain even when the forecast says it will," she mused.
 
-"Alright, I’m all ears," he said, signalling the waiter to come over. The waiter nodded in acknowledgment.
+"Alright, I’m all ears," he said, signalling the waiter to come over. The waiter nodded in acknowledgement.
 
 "But did you decide on what you actually want to have?" he asked.
 
@@ -299,7 +301,7 @@ They savoured their ice cream, letting it melt gently in their warm mouths.
 
 Another couple entered the parlour. The man, noticing them, approached their table with a puzzled look on his face, leaving his wife behind. He walked steadily, his expression shifting between curiosity and confusion as he drew closer.
 
-As the stranger approached their table he quickly recognized him, stood up and greeted him with a hug.. "I thought it was you, but your hat kept throwing me off," the stranger admitted, relieved.
+As the stranger approached their table he quickly recognized him, stood up and greeted him with a hug. "I thought it was you, but your hat kept throwing me off," the stranger admitted, relieved.
 
 "Yeah! How have you been?" they exchanged pleasantries and introduced their wives.
 
@@ -307,7 +309,7 @@ They engaged in a lively conversation about their lives. She noticed the strange
 
 "We haven't yet. We are about to," he replied.
 
-"Do you remember the movie we sneaked off to as kids, and you brought your school umbrella? It was a memorable experience. Ever since, you've carried an umbrella for luck," his friend reminisced.
+"Do you remember the movie we sneaked off to as kids, and you brought your school umbrella? It was a memorable experience. Ever since you've carried an umbrella for luck," his friend reminisced.
 
 "Yes, those were the good old days," he smiled.
 
@@ -427,7 +429,7 @@ He is disappointed that there is no conflict or a situation that challenges the 
 
 They visit the bus stop, pass the order and pamphlet to the bus driver, and ask him to leave one at every stop and get it stuck.
 
-"Wow, that's another hit. It's predictable and boring, just like the lives of many people in this theatre who live in this small town."
+"Yeaa...!, that's another hit. It's predictable and boring, just like the lives of many people in this theatre who live in this small town."
 
 He cannot disagree, he decided to change the way he watched the movie and he tried it without any idea of that way.
 
@@ -445,10 +447,10 @@ They rose and walked out of the theatre along with the crowd, she followed him a
 
 "Thanks for feeling for me. Maybe I was imagining my mischievous self at that age, also it's not gonna change anything, but a little suspicion in the background music could have directed my experience that way".
 
-"True! and nothing is going to change, as I have told you movies are made for a perceived expectation of the crowd.  You may have the most interesting expectation in the room, and you could anticipate it to happen, the makers might have thought about it too. But they won't have enough data to support them to say this new scene works. Look at the diverse age group of the crowd, not all of them are mischievous the normalized expectation here would be just they won't find the author on the train. They wouldn't risk experimenting with it. They just try to meet the normalized expectation which works out according to the data."
+"True! and nothing is going to change, as I have told you movies are made for a perceived expectation of the crowd.  You may have the most interesting expectation in the room, and you could anticipate it to happen, the makers might have thought about it too. But they won't have enough data to support them in saying that this new scene works. Look at the diverse age group of the crowd, not all of them are mischievous the normalized expectation here would be just they won't find the author on the train. They wouldn't risk experimenting with it. They just try to meet the normalized expectation which works out according to the data."
 
 The man began to comprehend this quite tiresomely. She continued
-"I have similar expectations in life, my expectation is never considered in this town- I have to restrict my expectation to a normalized expectation in this town. All these new businesses selling products or providing services, come up only in the big cities because there is a reasonably good volume of crowd expecting it. They take time to come to our town- not all of them come to our town only the successful ones. Even in that case, they have to train us, the public prior. Creating an expectation before launching it. I came to believe that all my expectations were manufactured by someone, none of them were manufactured by me. It all becomes vicarious. I sometimes wonder whether it's my expectation or the one that these people trained me along with every one of us."
+"I have similar expectations in life, my expectation is never considered in this town- I have to restrict my expectation to a normalized expectation in this town. All these new businesses selling products or providing services, come up only in the big cities because there is a reasonably good volume of crowd expecting it. They take time to come to our town- not all of them come to our town only the successful ones. Even in that case, they have to train us, the public prior. They are creating an expectation before launching it. I came to believe that all my expectations were manufactured by someone, none of them were manufactured by me. It all becomes vicarious. I sometimes wonder whether it's my expectation or the one that these people trained me along with every one of us."
 
 They arrive at the snack vendor "two coke and two popcorn"
 He collected his order and they walked back to their seats.
@@ -578,15 +580,15 @@ tale1.save!
 tale2 = TalePost.find_by(title: "Part II")
 tale2.body =
   <<~CONTENT
-      An irrational fear had sprung him out of his meditative state to consciousness. He hadn't opened his eyes yet, he tried to handle the fear by reciting the wise words his wife had said to him last night after he woke her up, unable to handle the overwhelming anxiety.
+                      An irrational fear had sprung him out of his meditative state to consciousness. He hadn't opened his eyes yet, he tried to handle the fear by reciting the wise words his wife had said to him last night after he woke her up, unable to handle the overwhelming anxiety.
 
-    "It is okay to feel nervous about the result of the play, with the first two plays having left a feeling of dissatisfaction.
-Don't give much thought to the outcome and the excitement associated with it.
-Just stay with the things that are in your control"
+                    "It is okay to feel nervous about the result of the play, with the first two plays having left a feeling of dissatisfaction.
+                Don't give much thought to the outcome and the excitement associated with it.
+            Just stay with the things that are in your control"
 
-While reciting them he checked for the presence of the anxiety in him, he found it but he chose to ignore it. He couldn't comfort himself with those words for long. He felt deceived that those wise words didn't have the same effect as they had last night. He tried to keep his spirits up, picturing the consequences of the play's success and it made him feel confident. An intense feeling that he had been in a meditative state for a long time and the expectation that everyone might have risen from their states made him open his eyes. To his surprise, he found all the players and crew still meditating. He rose and walked over to the coach, who was supervising them while flipping through the script pages. The coach had once been the Playmaker. Gardening, writing, reading, nothing could keep the boredom away from him after retirement. He went back to the theatre again, and his presence and availability boosted the morale of the players and crew. As the Playmaker got closer to the Coach, he became reflective about himself and all the inflated confidence fell short of his record, he quickly realized it and inflated it further ignoring his wife's words not to fantasize too much about the outcome.
+        While reciting them he checked for the presence of the anxiety in him, he found it but he chose to ignore it. He couldn't comfort himself with those words for long. He felt deceived that those wise words didn't have the same effect as they had last night. He tried to keep his spirits up, picturing the consequences of the play's success and it made him feel confident. An intense feeling that he had been in a meditative state for a long time and the expectation that everyone might have risen from their states made him open his eyes. To his surprise, he found all the players and crew still meditating. He rose and walked over to the coach, who was supervising them while flipping through the script pages. The coach had once been the Playmaker. Gardening, writing, reading, nothing could keep the boredom away from him after retirement. He went back to the theatre again, and his presence and availability boosted the morale of the players and crew. As the Playmaker got closer to the Coach, he became reflective about himself and all the inflated confidence fell short of his record, he quickly realized it and inflated it further ignoring his wife's words not to fantasize too much about the outcome.
 
-The coach kept the script aside and welcomed the pensive-looking Playmaker into his company. He waited for the players and the crew to emerge from their meditative state so they could talk. The players and the crew began to arise from their meditation making loud noise and making others rise from theirs.
+    The coach kept the script aside and welcomed the pensive-looking Playmaker into his company. He waited for the players and the crew to emerge from their meditative state so they could talk. The players and the crew began to arise from their meditation making loud noise and making others rise from theirs.
 
 Amidst the noise, the Coach muffled to the Playmaker, "Both versions of the script look intact, we should stick to one of them"
 
@@ -1027,7 +1029,7 @@ As the curtains gently closed, the cast and crew shared smiles of contentment. B
 
 The obedient kid walked over to the kid who should have played his role and, with genuine remorse in his voice, said, "I am very sorry for the circumstances that created false hopes and expectations for you and your family. It was selfish of me to demand my role back. I am deeply grateful to you; had you not taken that chance, I might never have realized my own selfishness. Performing tonight made me understand what it truly means to be selfless. Thank you very much, and please forgive me."
   CONTENT
-tale2.save!
+# tale2.save!
 # tale3 = TalePost.new()
 # tale3.title = "Part III"
 # tale3.body =

@@ -11,21 +11,21 @@
 # tale1.title = "Part I"
 tale1 = TalePost.find_by(title: "Part I")
 tale1.body = <<~CONTENT
-    I can feel all the muscles in my face tightening around my eyes. I resisted harder than ever. Now I can barely see as I post this to you.
+                I can feel all the muscles in my face tightening around my eyes. I resisted harder than ever. Now I can barely see as I post this to you.
 
-  She clocked out of her office and rushed to her moped in the parking lot. She tied her hair into a bun, wore a helmet, tucked the loose end of her saree into her waist, and drove away. A green-coloured saree with an off-white coloured blouse was the dress code at her workplace. Driving on an empty road with trees on either side, she navigated all the distractions and carefully contemplated her next steps to win the daily evening game at home.
+              She clocked out of her office and rushed to her moped in the parking lot. She tied her hair into a bun, wore a helmet, tucked the loose end of her saree into her waist, and drove away. A green-coloured saree with an off-white coloured blouse was the dress code at her workplace. Driving on an empty road with trees on either side, she navigated all the distractions and carefully contemplated her next steps to win the daily evening game at home.
 
-"It isn't a win until he agrees. We are totally in the lead, but who knows, he might try to pull a sneaky move. I am sure he wouldn't have any planned move, and we shouldn't be too competitive and lose ideas to him like we did with the 'labelling the sock' argument. Let's play dumb and let him figure out his moves. So you will be playing a naive housewife but don't be too naive to fall into his trap. I also think we should add more depth to the character."
+            "It isn't a win until he agrees. We are totally in the lead, but who knows, he might try to pull a sneaky move. I am sure he wouldn't have any planned move, and we shouldn't be too competitive and lose ideas to him like we did with the 'labelling the sock' argument. Let's play dumb and let him figure out his moves. So you will be playing a naive housewife but don't be too naive to fall into his trap. I also think we should add more depth to the character."
 
-She loosened her hand on the accelerator, drifted into the side lane, and drove slowly, pondering over it.
+          She loosened her hand on the accelerator, drifted into the side lane, and drove slowly, pondering over it.
 
-"Remember that housewife from our recent bank visit? Despite her documents being perfect, the bank people kept her waiting and raised doubts about her documents, expecting a commission. But she was kind, pleasing, and patient. She never lost her temper arguing about her rights but spent her waiting time as if she owned all the time in the world, helping old people with their forms. Finally, it was the bank people who were moved down to her and processed her loan. Let's play her. I think perseverance with kindness and a pleasing attitude would add a little depth to the character."
+        "Remember that housewife from our recent bank visit? Despite her documents being perfect, the bank people kept her waiting and raised doubts about her documents, expecting a commission. But she was kind, pleasing, and patient. She never lost her temper arguing about her rights but spent her waiting time as if she owned all the time in the world, helping old people with their forms. Finally, it was the bank people who were moved down to her and processed her loan. Let's play her. I think perseverance with kindness and a pleasing attitude would add a little depth to the character."
 
-She moved back, tilted her head a bit, and got a look at herself in the moped's rearview mirror with a smile of joy. A cool breeze brushed her cheek, broadening the smile on her face and amplifying her delight. All the excitement she had held at higher altitudes until then flew in, blinded her restraint and overwhelmed her to anticipate the ideas to act on after winning.
+      She moved back, tilted her head a bit, and got a look at herself in the moped's rearview mirror with a smile of joy. A cool breeze brushed her cheek, broadening the smile on her face and amplifying her delight. All the excitement she had held at higher altitudes until then flew in, blinded her restraint and overwhelmed her to anticipate the ideas to act on after winning.
 
-"The photograph should suggest him waiting at a bus stop with all public transport called for a protest. His rest face photograph could be used to replace all the numbers on the clock. Should I click a joyful face of his in an urban landscape or a gloomy face of his in a small town landscape?" Her vehicle bounced over a speed bump a few streets from his office building, causing a sudden jolt that dampened her excitement and set her ideas aside.
+    "The photograph should suggest him waiting at a bus stop with all public transport called for a protest. His rest face photograph could be used to replace all the numbers on the clock. Should I click a joyful face of his in an urban landscape or a gloomy face of his in a small town landscape?" Her vehicle bounced over a speed bump a few streets from his office building, causing a sudden jolt that dampened her excitement and set her ideas aside.
 
-"I have a question," the character she designed asked innocently. "How is my character going to help you achieve victory? We are not suggesting anything through my character related to our side of the argument: living experience in bigger cities is better than in a small town."
+  "I have a question," the character she designed asked innocently. "How is my character going to help you achieve victory? We are not suggesting anything through my character related to our side of the argument: living experience in bigger cities is better than in a small town."
 
 "That part of the argument is over if you remember. Oh! you wouldn't possibly know it since you were just created. I’ve designed a few other characters and used them to address that issue, and we’ve successfully proven that living experience in bigger cities is better. It’s just that he couldn’t accept the defeat," she explained to her character as she neared his office.
 
@@ -573,34 +573,34 @@ She didn't hear a response from him, and with a soft sigh, she said, "Good night
 She smiled at his mumbled words, feeling content as she gathered herself to sleep.
 CONTENT
 
-tale1.save!
+# tale1.save!
 
 # tale2 = TalePost.new()
 # tale2.title = "Part II"
 tale2 = TalePost.find_by(title: "Part II")
 tale2.body =
   <<~CONTENT
-                      An irrational fear had sprung him out of his meditative state to consciousness. He hadn't opened his eyes yet, he tried to handle the fear by reciting the wise words his wife had said to him last night after he woke her up, unable to handle the overwhelming anxiety.
+                                              An irrational fear had sprung him out of his meditative state to consciousness. He hadn't opened his eyes yet, he tried to handle the fear by reciting the wise words his wife had said to him last night after he woke her up, unable to handle the overwhelming anxiety.
 
-                    "It is okay to feel nervous about the result of the play, with the first two plays having left a feeling of dissatisfaction.
-                Don't give much thought to the outcome and the excitement associated with it.
-            Just stay with the things that are in your control"
+                                            "It is okay to feel nervous about the result of the play, with the first two plays having left a feeling of dissatisfaction.
+                                        Don't give much thought to the outcome and the excitement associated with it.
+                                    Just stay with the things that are in your control"
 
-        While reciting them he checked for the presence of the anxiety in him, he found it but he chose to ignore it. He couldn't comfort himself with those words for long. He felt deceived that those wise words didn't have the same effect as they had last night. He tried to keep his spirits up, picturing the consequences of the play's success and it made him feel confident. An intense feeling that he had been in a meditative state for a long time and the expectation that everyone might have risen from their states made him open his eyes. To his surprise, he found all the players and crew still meditating. He rose and walked over to the coach, who was supervising them while flipping through the script pages. The coach had once been the Playmaker. Gardening, writing, reading, nothing could keep the boredom away from him after retirement. He went back to the theatre again, and his presence and availability boosted the morale of the players and crew. As the Playmaker got closer to the Coach, he became reflective about himself and all the inflated confidence fell short of his record, he quickly realized it and inflated it further ignoring his wife's words not to fantasize too much about the outcome.
+                                While reciting them he checked for the presence of the anxiety in him, he found it but he chose to ignore it. He couldn't comfort himself with those words for long. He felt deceived that those wise words didn't have the same effect as they had last night. He tried to keep his spirits up, picturing the consequences of the play's success and it made him feel confident. An intense feeling that he had been in a meditative state for a long time and the expectation that everyone might have risen from their states made him open his eyes. To his surprise, he found all the players and crew still meditating. He rose and walked over to the coach, who was supervising them while flipping through the script pages. The coach had once been the Playmaker. Gardening, writing, reading, nothing could keep the boredom away from him after retirement. He went back to the theatre again, and his presence and availability boosted the morale of the players and crew. As the Playmaker got closer to the Coach, he became reflective about himself and all the inflated confidence fell short of his record, he quickly realized it and inflated it further ignoring his wife's words not to fantasize too much about the outcome.
 
-    The coach kept the script aside and welcomed the pensive-looking Playmaker into his company. He waited for the players and the crew to emerge from their meditative state so they could talk. The players and the crew began to arise from their meditation making loud noise and making others rise from theirs.
+                            The coach kept the script aside and welcomed the pensive-looking Playmaker into his company. He waited for the players and the crew to emerge from their meditative state so they could talk. The players and the crew began to arise from their meditation making loud noise and making others rise from theirs.
 
-Amidst the noise, the Coach muffled to the Playmaker, "Both versions of the script look intact, we should stick to one of them"
+                        Amidst the noise, the Coach muffled to the Playmaker, "Both versions of the script look intact, we should stick to one of them"
 
-The Playmaker extended his ears to him with a pre-meditative idea of rejecting whatever the coach was going to say, "I cannot hear you"
+                    The Playmaker extended his ears to him with a pre-meditative idea of rejecting whatever the coach was going to say, "I cannot hear you"
 
-Coach cleared his throat and raised his volume, "I was saying, both versions look great, let's stick to one of the versions"
+                Coach cleared his throat and raised his volume, "I was saying, both versions look great, let's stick to one of the versions"
 
-"Why do you suggest so? From ages, all our plays involved the audience into the play."
+            "Why do you suggest so? From ages, all our plays involved the audience into the play."
 
-"Yes, but I am worried about the impact of its result on you. Your emotional state is deteriorating with the failure of the plays. I want you to keep it simple this time and have your fair share of satisfaction for your work."
+        "Yes, but I am worried about the impact of its result on you. Your emotional state is deteriorating with the failure of the plays. I want you to keep it simple this time and have your fair share of satisfaction for your work."
 
-"Thank you for your concern. But I am confident, we will pull it off this time and get past that point smoothly."
+    "Thank you for your concern. But I am confident, we will pull it off this time and get past that point smoothly."
 
 The Playmaker was not certain as he mentioned, he was shaken from the inside and his trembling hands reflected it.
 
@@ -1032,475 +1032,477 @@ The obedient kid walked over to the kid who should have played his role and, wit
 # tale2.save!
 # tale3 = TalePost.new()
 # tale3.title = "Part III"
-# tale3.body =
-#   <<~CONTENT
-#                 With trees alongside the road, the sound of the wind is loud. A whirring noise enters the space, gradually picks up intensity and occupies the entire space. The intensity is maintained, only for the time the sand stays at the neck of an hourglass and, gradually drops at the same pace, leaving the entire space again for the wind. The loose half-sleeve shirt of a 24-year-old boy, standing with his left arm extended and thumb popped out of his fists, flaps on his body soon after the whirring sound has reached its peak. 
+tale3 = TalePost.find_by(title: "Part III")
+tale3.body =
+  <<~CONTENT
+                        With trees alongside the road, the sound of the wind is loud. A whirring noise enters the space, gradually picks up intensity and occupies the entire space. The intensity is maintained, only for the time the sand stays at the neck of an hourglass and, gradually drops at the same pace, leaving the entire space again for the wind. The loose half-sleeve shirt of a 24-year-old boy, standing with his left arm extended and thumb popped out of his fists, flaps on his body soon after the whirring sound has peaked. 
 
-#             He has been waiting there by the highway under the sun, in hope of a ride for quite some time. He was in a similar situation the day before yesterday but at a different location, where he wants to go now. Nothing more had changed, except earlier he was constantly fueled with excitement and energy, thinking about her and all the possibilities of sharing life with her. Now, every thought of her is putting him to work, to prevent demolition of the dream castles he had built, and draining his energy . He had forgotten that he hadn't eaten anything or drank water for a long time. 
+                    He has been waiting by the highway under the sun, hoping for a ride for quite some time. He was in a similar situation the day before yesterday but at a different location, where he wants to go now. Nothing had changed, except earlier he was constantly fueled with excitement and energy, thinking about her and all the possibilities of sharing life with her. Now, every thought of her is putting him to work to prevent the demolition of the dream castles he had built and draining his energy. He had forgotten that he hadn't eaten anything or drank water for a long time.
 
-#         He sees a car entering his horizon with a whirring sound; he extends his left arm and pops out his thumb. Only this time, the car doesn't reach its peak when it nears him. The car stops just after passing him, and an elderly man pops out of the window, turns back to him, and waves for him to get in. He picks up his backpack and rushes towards the car. As he gets into the car, the elderly man's wife, in the driving seat, greets him.
+                He sees a car entering his horizon with a whirring sound; he extends his left arm and pops out his thumb. Only this time, the car doesn't reach its peak when it nears him. The car stops just after passing him, and an elderly man pops out of the window, turns back to him, and waves for him to get in. He picks up his backpack and rushes towards the car. As he gets into the car, the elderly man's wife, in the driving seat, greets him.
 
-#     The sense of relief in finding the ride doesn't last long, overtaken just like a fast-moving car overtook their halted car while he got in. With his thoughts of hope about finding the ride put to rest and with the prevailing silence in the car, the noise in his head is bright, clear and precise. "I shouldn't have rushed..." "Why do I have to be so excited?" "Why did my parents pamper me so much as a child?" "why didn't my friends contain my excitement?" "I should have let her know who I am and, in fact, more about me.". "Who asks a stranger, 'Will you marry me?'" "and who will say yes to a stranger.".
+            The sense of relief in finding the ride doesn't last long, overtaken just like a fast-moving car overtook their halted car while he got in. With his thoughts of hope about finding the ride put to rest and with the prevailing silence in the car, the noise in his head is bright, clear and precise. "I shouldn't have rushed..." "Why do I have to be so excited?" "Why did my parents pamper me so much as a child?" "why didn't my friends contain my excitement?" "I should have let her know who I am and, in fact, more about me.". "Who asks a stranger, 'Will you marry me?'" "And who will say yes to a stranger.".
 
-# Each one of his regrets opened a new door, took him to the deepest of the depths until he absorbed ~self-hatred~ and popped him out at a new space, strange enough for him to be lost with in no time after taking a few steps, with questions "What would you do now? Would you still pursue all those goals of yours? Who would inspire you now? Does this life mean anything to you anymore?" and left him hopeless. As a kid he observed many men in their youth opening these doors and found them always to be sad and depressed; he firmly decided that he would not only never open them but will never even look for their keys. Today he came to know what the keys to those doors look like. Having unlocked a new area in his mental space, he experiences a tinge of excitement generated by the new horizons instead of the expected suffering. Puzzled by this strange feeling, he begins to suffocate and finds it difficult to breathe.
+        Each one of his regrets opened a new door, took him to the deepest of the depths until he absorbed self-hatred and popped him out at a new space, strange enough for him to be lost within no time after taking a few steps, with questions "What would you do now? Would you still pursue all those goals of yours? Who would inspire you now? Does this life mean anything to you anymore?" and left him hopeless. As a kid he observed many men in their youth opening these doors and found them always to be sad and depressed; he firmly decided that he would not only never open them but would never even look for their keys. Today he came to know what the keys to those doors look like. Having unlocked a new area in his mental space, he experiences a tinge of excitement generated by the new horizons instead of the expected suffering. Puzzled by this strange feeling, he begins to suffocate and finds it difficult to breathe.
 
-# Despite all this, there is something to feel happy about, a distraction—his thoughts now broken loose are no longer rational or sequential. He has no control over them; any thought can take control over him. Compassion for the girl has distracted him from thinking about himself and axing him further. It has taken over his other thoughts, presenting him with the realization of how uncomfortable he might have made her feel. What could she possibly be going through now?
+    Despite all this, there is something to feel happy about, a distraction—his thoughts now broken loose are no longer rational or sequential. He has no control over them; any thought can take control over him. Compassion for the girl has distracted him from thinking about himself and axing him further. It has taken over his other thoughts, presenting him with the realization of how uncomfortable he might have made her feel. What could she possibly be going through now?
 
-# "Sit comfortably, isn't the bag on your lap heavy? keep it aside." the lady driving the car speaks looking into the rear-view mirror.
+"Sit comfortably, isn't the bag on your lap heavy? keep it aside." the lady driving the car speaks looking into the rear-view mirror.
 
-# He places the bag aside but still sits uncomfortably, as if he is in the crowded back seat of a car, trying to give everyone space.
+He sets the bag aside but still sits uncomfortably, as if he the backseat is crowded, trying to give everyone space.
 
-# "sit back and relax," the elderly man says soothingly and passes him a bottle of water
+"sit back and relax," the elderly man says soothingly and passes him a bottle of water
 
-# He finds it a lot of effort to think and reason about their courtesy, so he simply obliges. 'Thank you.'
+He finds that his shyness is consuming a lot of his energy in rationally denying their courtesy, so he simply obliges. "Thank you."
 
-# "what track were you listening to?"
+"what track were you listening to?"
 
-# "No space in my bag. I had to hang the headphones over my neck. I wasn't listening. The last one I listened to was Rolling Stones"
+"No space in my bag. I had to hang the headphones over my neck. I wasn't listening. The last one I listened to was Rolling Stones"
 
-# Finally, that was the response the elderly man expected. He reaches out to the dashboard, fetches the 'Rolling Stones' cassette holder, and queries eagerly, 'Same cover?'
+Finally, that was the response the elderly man expected. He reaches out to the dashboard, fetches the 'Rolling Stones' cassette holder, and queries eagerly, 'Same cover?'
 
-# "Yes"
+"Yes"
 
-# "Do you have any other"
+"Do you have any other"
 
-# He names two other cassettes that he has and the elderly man presents the one's he has from the dashboard draw.
+He names two other cassettes that he has and the elderly man presents the ones he has from the dashboard draw.
 
-# "Both Same covers?"
+"Both Same covers?"
 
-# "same covers, yes" the young lad responds feebly
-# The elderly man sighs in disappointment.
+"same covers, yes" the young lad responds feebly
+The elderly man sighs in disappointment.
 
-# Having surrendered to an overwhelming state of emotion, the Young Lad is completely clueless about what is happening to him. A sense of futility creeps in, as though he had missed an opportunity to reciprocate their generosity. This feeling stays bright only for a tiny moment. During this fleeting moment, it furrows his brows, casts down his eyes, and turns the corners of his lips downward, sculpting a statue out of him and then hands over the control to the emotional state he is in.
+Having surrendered to an overwhelming state of emotion, the Young Lad is completely clueless about what is happening to him. A sense of futility creeps in, as though he had missed an opportunity to reciprocate their generosity. This feeling stays bright only for a tiny moment. During this fleeting moment, it furrows his brows, casts down his eyes, and turns the corners of his lips downward, sculpting a statue out of him and then hands over the control to the emotional state he is in.
 
-# The elderly tentatively asks her lady, "Shall I play rolling stones again?"
+The elderly tentatively asks her lady, "Shall I play rolling stones again?"
 
-# "Nooo...! I am already feeling nauseous about them..."
+"Nooo...! I am already feeling nauseous about them..."
 
-# "Okay, how about that game, now that we are three it might be fun..."
+"Okay, how about that game, now that we are three it might be fun..."
 
-# "No... c'mon, two or three it's not fun "
+"No... c'mon, two or three it's not fun "
 
-# Noticing his face has been deflated by her words she ponders while driving and pleasingly utters "you know what, let's play."
+Noticing his face has been deflated by her words she ponders while driving and then pleasingly utters "You know what, let's play."
 
-# "That's Nice! Thank you! I'll start then"
+"That's Nice! Thank you! I'll start then"
 
-# The lady interrupts his excitement "Let me tell the rules, I will start with a piece of story and after a point will pass it to you. and you will take it to another point from there and pass it to the next person. We will continue this until we reach the climax."
+The lady interrupts his excitement "Let me tell the rules, I will start with a piece of the story and after a point will pass it to you. and you will take it to another point from there and pass it to the next person. We will continue this until we reach the climax."
 
-# The elderly man ignores the rules as he prepares to begin "Alright, I have got an idea, I am starting." 
+The elderly man ignores the rules as he prepares to begin "Alright, I have got an idea, I am starting." 
 
-# The lady objects "If you start you have to pass it to him, let him take the third turn. He will get an idea"
+The lady objects "If you start you have to pass it to him, let him take the third turn. He will get an idea"
 
-# "I can pass it to you" the elderly man protests
+"I can pass it to you" the elderly man protests
 
-# "that becomes clockwise and we decided not to play this game clockwise"
+"that becomes clockwise and we decided not to play this game clockwise"
 
-# "Alright then, go ahead but no child protagonists"
+"Alright then, go ahead but no child protagonists"
 
-# "ohh c'mon... okay!"
+"ohh c'mon... okay!"
 
-# The lady exclaims and continues to drive the car for a kilometer or so
+The lady exclaims and continues to drive the car for a kilometer or so
 
-# "Once upon a time, not very long ago there lived a beautiful girl. She likes to spend her days painting and reading books without worrying about anything. One day a boy in his youth watches her paint a landscape and when a paper flies away from the stack her pet fetches it. She thanks the pet and kisses the pet playfully. The boy couldn't roll his eyes away from her. He fell in love with her. Love at first sight!"
+"Once upon a time, not very long ago there lived a beautiful girl. She likes to spend her days painting and reading books without worrying about anything. One day a boy in his youth watches her paint a landscape and when a paper flies away from the stack her pet fetches it. She thanks the pet and kisses the pet playfully. The boy couldn't roll his eyes away from her. He fell in love with her. Love at first sight!"
 
-# The elderly man setting his cap right
+The elderly man setting his cap right
 
-# "The boy walks home and drifts into sleep thinking about her. All night he dreams about her. In the morning he wakes up to realize he is in a cage of family responsibilities."
+"The boy walks home and drifts into sleep thinking about her. All night he dreams about her. In the morning he wakes up to realize he is in a cage of family responsibilities."
 
-# "it's your turn"
+"it's your turn"
 
-# The young lad couldn't resist imagining himself as that boy and the girl in the story as the girl whom he fell for. He kept discarding all thoughts and ideas that he felt might give away any information about him having loved a girl and currently facing rejection. He doesn't want the world to know about it. He pitied those in their youth when he was a kid. He knew what kind of impression they had left on him.
+The young lad couldn't resist imagining himself as that boy and the girl in the story as the girl whom he fell for. He kept discarding all thoughts and ideas that he felt might give away any information about him having loved a girl and currently facing rejection. He doesn't want the world to know about it. He pitied those in their youth when he was a kid. He knew what kind of impression they had left on him.
 
-# The elderly man turns back and impatiently says "You cannot take so much time. Only starters get to take time"
+The elderly man turns back and impatiently says "You cannot take so much time. Only starters get to take time"
 
-# The young lad found himself immersed in the situation, overwhelmed by feelings of timidity, unworthiness, and inadequacy. He hesitated, caught in a dilemma about whether to speak, attributing his emotions to the character he portrayed, fearful of revealing anything about himself. With nothing to say, he struggled internally. Meanwhile, the elderly man had already turned back, locking eyes with him and softly brushing off his knuckles in anticipation. The lady's attention was fixed on the rear-view mirror rather than the road ahead. Before he could assure himself that he no longer identified with those traits of timidness, having overcome his timidity and bravely confessed his feelings to the girl he liked, words began to flow out of his mouth involuntarily. His thoughts and speech had achieved such synchronization that they flowed without requiring his conscious validation before speaking.
+The young lad found himself immersed in the situation, overwhelmed by feelings of timidity, unworthiness, and inadequacy. He hesitated, caught in a dilemma about whether to speak, attributing his emotions to the character he portrayed, fearful of revealing anything about himself. With nothing to say, he struggled internally. Meanwhile, the elderly man had already turned back, locking eyes with him and softly brushing off his knuckles in anticipation. The lady's attention was fixed on the rear-view mirror rather than the road ahead. Before he could assure himself that he no longer identified with those traits of timidness, having overcome his timidity and bravely confessed his feelings to the girl he liked, words began to flow out of his mouth involuntarily. His thoughts and speech had achieved such synchronization that they flowed without requiring his conscious validation before speaking.
 
-# "The boy was raised in a conservative family, where he was brought up very rigidly. He lacked confidence and felt timid about making a move to approach her."
+"The boy was raised in a conservative family, where he was brought up very rigidly. He lacked confidence and felt timid about making a move to approach her."
 
-# The lady is disappointed with the lack of any progress in the story
+The lady is disappointed with the lack of progress in the story
 
-# "c'mon guys the girl cannot go to him, leave alone loving him back she didn't even see him or know who he is."
+"c'mon guys the girl cannot go to him, let alone love him back she didn't even see him or know who he is."
 
-# She takes a breath. "One day, the boy sees the girl again from a distance. This time, she is laughing with a handsome guy and seems to be having a good time. She probably will marry him. The boy finds himself feeling very jealous and anxious."
+She takes a breath. "One day, the boy sees the girl again from a distance. This time, she is laughing with a handsome guy and seems to be having a good time. She probably will marry him. The boy finds himself feeling very jealous and anxious."
 
-# That was exactly how he felt in his situation. Not that he saw her laughing and having a good time with any guy, but he had the thought of her marrying someone. He had planned many ways to approach her, along with the one he picked, and got rejected.
+That was exactly how he felt in his situation. Not that he saw her laughing and having a good time with any guy, but he had the thought of her marrying someone. He had planned many ways to approach her, along with the one he picked, and got rejected.
 
-# "He writes a letter of love to her but him being anxious about the outcome he doesn't give any hint that it is from him." the elderly man continues
+"He writes a letter of love to her but him being anxious about the outcome he doesn't give any hint that it is from him." the elderly man continues
 
-# The young lad, in fact, had written a letter of love, but he hadn't chosen that route. He jogs his memory and sees it in his drawer where he had last left it, and feels excited to have written such a beautiful letter. As the elderly man turns back, committed to the idea that he was no longer that character anymore, the young lad continues the story with the plan he had devised involving the love letter.
+The young lad had written a letter of love, but he hadn't chosen that route. He jogs his memory and sees it in his drawer where he had last left it and feels excited to have written such a beautiful letter. As the elderly man turns back, committed to the idea that he is no longer that character anymore, the young lad continues the story with the plan he had devised involving the love letter.
 
-# "He drops the letter anonymously into her paper stack. The girl reads the letter and is impressed with it. She starts her search for him." 
+"He drops the letter anonymously into her paper stack. The girl reads the letter and is impressed with it. She starts her search for him." 
 
-# "Power of a love letter!" exclaims the elderly man to the young lad's response.
+"Power of a love letter!" exclaims the elderly man to the young lad's response.
 
-# "You guys are too cowardly to imagine! You won't evolve, and neither does the story! You want the girl to find the needle in the haystack. I'm ending this. The girl thinks the letter is from the boy she was found laughing with and secretly asserts through his friends and acquaintances that it has been written by him. Her love for him swells, and she finally marries him."
+"You guys are too cowardly to imagine! You won't evolve, and neither does the story! You want the girl to find the needle in the haystack. I'm ending this. The girl thinks the letter is from the boy she was found laughing with and secretly asserts through his friends and acquaintances that it has been written by him. Her love for him swells, and she finally marries him."
 
-# The elderly man rushes at her, objecting firmly, "That cannot happen. There is a flaw."
+The elderly man rushes at her, objecting firmly, "That cannot happen. There is a flaw."
 
-# A heavy vehicle, moving slowly doesn't give her way. She honks many times.
+A heavy vehicle, moving slowly doesn't give her way. She honks many times.
 
-# "There is no flaw the story had ended"
+"There is no flaw the story had ended"
 
-# She realizes that waiting for the truck to give them the way is futile
+She realizes that waiting for the truck to give them the way is futile
 
-# "Did he and his friends lie to her that he wrote it?"
+"Did he and his friends lie to her that he wrote it?"
 
-#  She maneuvers the car off the road into the mud, bouncing everyone in their seats.
+ She manoeuvres the car off the road into the mud, bouncing everyone in their seats.
 
-# "Yes, and years later, the couple fought about it, but it didn't last for more than an hour. That is the end."
+"Yes, and years later, the couple fought about it, but it didn't last for more than an hour. That is the end."
 
-# She accelerates on the bumpy road, overtakes the truck, and merges back onto the main road.
+She accelerates on the bumpy road, overtakes the truck, and merges back onto the main road.
 
-# The lady looks frustrated and her husband understands it and goes silent.
+The lady looks frustrated and her husband understands it and goes silent.
 
-# The silence prevails for some distance and the lady herself breaks the silence.
+The silence prevails for some distance and the lady herself breaks the silence.
 
-# "You guys are just like that heavy truck."
+"You guys are just like that heavy truck."
 
-# No one responds. They both remain silent.
+No one responds. They both remain silent.
 
-# "The only difference is you make stories immobile," she continues, hoping to lighten the tension. When they remain unresponsive, she sighs.
+"The only difference is you make stories immobile," she continues, hoping to lighten the tension. When they remain unresponsive, she sighs.
 
-# "I wish I could have told you sorry," she teases gently.
+"I wish I could have told you sorry," she teases gently.
 
-# "Alright, I am sorry, guys. Speak up, say something."
+"Alright, I am sorry, guys. Speak up, say something."
 
-# "Apology accepted" elderly man responds though his tone is still stern.
+"Apology accepted" elderly man responds though his tone is still stern.
 
-# The lady looks into the rear-view mirror at the young-lad.
+The lady looks into the rear-view mirror at the young lad.
 
-# "It's okay" the young lad responds, but he doesn't know what expression he is carrying.
+"It's okay" the young lad responds, but he doesn't know what expression he is carrying.
 
-# She takes a deep breath, trying to dispel the tension. "Okay then, I'll take it on me. I know I have disappointed your mood. Let me try to engage you for a while. Allow me to tell a story."!
+She takes a deep breath, trying to dispel the tension. "Okay then, I'll take it on me. I know I have disappointed your mood. Let me try to engage you for a while. Allow me to tell a story."!
 
-# The elderly man, still looking a bit angry but softening slightly, responds, "Go ahead."
+The elderly man, still looking a bit angry but softening slightly, responds, "Go ahead."
 
-# "A few years ago. One fine evening, he returned home from a work trip"
+"A few years ago. One fine evening, he returned home from a work trip"
 
-# "Is it a true story?" queries the young lad
+"Is it a true story?" queries the young lad
 
-# "Yes it is", she didn't like the interruption
+"Yes it is", she didn't like the interruption
 
-# "So... He walked into the house, didn't eat the sweet I prepared, didn't speak anything, didn't respond to anything, walked straight into his room and shut the door. I dunno if he cried but I waited outside the door with my receptors tuned to hear a cry. I think I heard something which he later denied. Checked if he is okay and he replied that he is but his voice didn't sound so."
+"So... He walked into the house, didn't eat the sweet I prepared, didn't speak anything, didn't respond to anything, walked straight into his room and shut the door. I dunno if he cried but I waited outside the door with my receptors tuned to hear a cry. I think I heard something which he later denied. Checked if he was okay and he replied that he was but his voice didn't sound so."
 
-# As she says that her eyes roll toward her husband and his eyes roll toward her but with her driving, they miss making the eye contact. 
+As she says that her eyes roll toward her husband and his eyes roll toward her but with her driving, they miss making eye contact. 
 
-# "Determined, and scared for him I woke him up and served him dinner, I watched over him till he finished his dinner, he didn't speak a word and later he went back to sleep. That whole night I couldn't sleep. I prayed for him to have the ability to get over it quickly. My thoughts wandered around a similar incident where I think he was as sad as he was that evening".
+"Determined, and scared for him I woke him up and served him dinner, I watched over him till he finished his dinner, he didn't speak a word and later he went back to sleep. That whole night I couldn't sleep. I prayed for him to have the ability to get over it quickly. My thoughts wandered around a similar incident where I think he was as sad as he was that evening".
 
-# "It was the day he proposed to me and the day I refused his proposal. I didn't directly know how sad he was that day, but the words I told him could have made anyone feel sad. He was likely sad all that night too, I think. I thought he might feel better tonight, at least having had a similar incident to relate to. But the night I refused his proposal, he didn't have any previous experience to cling to and think, 'This will pass too, like the last time.' I was concerned for him. Like I said, I was wandering over that past incident, maybe to find something that would give some hope that he would be relieved soon.
+"It was the day he proposed to me and the day I refused his proposal. I didn't directly know how sad he was that day, but the words I told him could have made anyone feel sad. He was likely sad all that night too, I think. I thought he might feel better tonight, at least having had a similar experience to relate to. But the night I refused his proposal, he didn't have any previous experience to cling to and think, 'This will pass too, like the last time.' I was concerned for him. Like I said, I was wandering over that past incident, maybe to find something that would give some hope that he would be relieved soon.
 
-# He saw me at a classical dance event—well, I wasn't dancing; I was in the audience like him. He followed me to my house, but that day he did not have the courage to talk to me, so he went back to his city. He later told me that he couldn't stop thinking about me, and the more he thought about me, the more my image formed in his mind and made him anxious. He tried to avoid being anxious, and naturally, as days passed, the image started to fade. He got scared, and that's when he decided to be brave and travel out of the city to meet me. He did not start immediately. He was naive, timid, and lacked confidence. He set himself a few unrealistic goals, and maybe he thought if he accomplished them, I would accept him. To this day, I still feel that idea was superstitious."
+He saw me at a classical dance event—well, I wasn't dancing; I was in the audience like him. He followed me to my house, but that day he did not have the courage to talk to me, so he went back to his city. He later told me that he couldn't stop thinking about me, and the more he thought about me, the more my image formed in his mind and made him anxious. He tried to avoid being anxious, and naturally, as days passed, the image started to fade. He got scared, and that's when he decided to be brave and travel out of the city to meet me. He did not start immediately. He was naive, timid, and lacked confidence. He set himself a few unrealistic goals, and maybe he thought if he accomplished them, I would accept him. To this day, I still feel that idea was superstitious."
 
-# Something rang in the young guy's head; it rang as soon as the narration started, but when he heard about the rejection, the intensity and volume of the ring increased. He began to defend, saying, "What's superstitious about it?"
+Something rang in the young guy's head; it rang as soon as the narration started, but when he heard about the rejection, the intensity and volume of the ring increased. He began to defend, saying, "What's superstitious about it?"
 
-# The lady replied, exchanging a glance with her husband, and the young lad noticed it. "The activities he had set for himself had nothing to do with meeting me or requesting me to accept him into my life."
+The lady replied, exchanging a glance with her husband, and the young lad noticed it. "The activities he had set for himself had nothing to do with meeting me or requesting me to accept him into my life."
 
-# The young lad thought he was still contemplating whether to protest, but the words came out, "But it gave him strength, confidence, and courage to meet you, didn't it?"
+The young lad thought he was still contemplating whether to protest, but the words came out, "But it gave him strength, confidence, and courage to meet you, didn't it?"
 
-# The lady countered, "How is running daily related to gaining confidence to talk to me? Is he going to be talking to me about running?"
+The lady countered, "How is running daily related to gaining confidence to talk to me? Is he going to be talking to me about running?"
 
-# The young guy immediately reckoned with his words because that was exactly what he did in his situation. He did those and many other superstitious activities to gain confidence before he went on to meet the girl he had seen a month ago on his vacation. Now, he was in the car after the rejection. A sense of doubt crept in, wondering how this lady knew what had happened with him, and it started to brew. The young lad ignored the suspicion, unaware that it was brewing, as he was busy recollecting how he had blamed himself for setting those unrealistic goals and going ahead to meet the girl without accomplishing them as he waited for the ride.
+The young guy immediately reckoned with his words because that was exactly what he did in his situation. He did those and many other superstitious activities to gain confidence before he went on to meet the girl he had seen a month ago on his vacation. Now, he is in the car after the rejection. A sense of doubt crept in, wondering how this lady knew what had happened to him, and it started to brew. The young lad ignored the suspicion, unaware that it was brewing, as he was busy recollecting how he had blamed himself for setting those unrealistic goals and going ahead to meet the girl without accomplishing them as he waited for the ride.
 
-# The lady continued, "He came to my place and was nervous. He told me that he had seen me in the audience and very soon after, that he liked me very much and proposed to me. I had no such plans; I didn't care who he was and bluntly said no. In fact, I was rude, and I left. He followed me and told me that he never thought he would propose to anyone with the kind of personality he had, but it was his love for me that gave him that courage. I just looked at his eyes—they were already filled with the pain of rejection, but his face covered it with a tiny smile. But I didn't say anything back. I left, leaving him there. I thought I left, but I didn't realize I left with that image of his."
+The lady continued, "He came to my place and was nervous. He told me that he had seen me in the audience and very soon after, that he liked me very much and proposed to me. I had no such plans; I didn't care who he was and bluntly said no. In fact, I was rude, and I left. He followed me and told me that he never thought he would propose to anyone with the kind of personality he had, but it was his love for me that gave him that courage. I just looked at his eyes—they were already filled with the pain of rejection, but his face covered it with a tiny smile. But I didn't say anything back. I left, leaving him there. I thought I left, but I didn't realize I left with that image of his."
 
-# “The young man thought to himself, ‘I’ve said that too. How old is my thought process, and are my ideas ancient? Even if their experiences mirror mine, the expression cannot be identical.’ He could imagine himself with the same expression after the rejection. ‘How did they know all this? Did my face reveal a similar expression when I boarded this car, and are they constructing the story to match that expression? There’s no chance they know it; are they reading my mind?’ He wanted to say, ‘Please do not read my mind.’ But he lacked any evidence that they were indeed reading his thoughts and not merely narrating their own story. He didn’t want to make a fool of himself. It hurts. ‘Do we share the same stories? They won’t believe me if I say so, and they might perceive me as pretentious.’ But how on earth do they know my story?” he cried out loud within himself, without making a sound. He was angry with them. ‘They shouldn’t be doing this. I have never witnessed such a phenomenon. How are they able to do it? Why can’t my mind stop thinking about the rejection? It’s very insulting to let others know that I was rejected. I have to stop thinking about it.’ He felt bullied, as if they were asserting their superiority over him. ‘They are the car owners; they don’t want a stranger to assert superiority in their car. Where is my head traveling?’"
+“The young man thought to himself, ‘I’ve said that too. How old is my thought process, and are my ideas ancient? Even if their experiences mirror mine, the expression cannot be identical.’ He could imagine himself with the same expression after the rejection. ‘How did they know all this? Did my face reveal a similar expression when I boarded this car, and are they constructing the story to match that expression? There’s no chance they know it; are they reading my mind?’ He wanted to say, ‘Please do not read my mind.’ But he lacked any proof that they were indeed reading his thoughts and not merely narrating their own story. He didn’t want to make a fool of himself. It hurts. ‘Do we share the same stories? They won’t believe me if I say so, and they might perceive me as pretentious.’ But how on earth do they know my story?” he cried out loud within himself, without making a sound. He was angry with them. ‘They shouldn’t be doing this. I have never witnessed such a phenomenon. How are they able to do it? Why can’t my mind stop thinking about the rejection? It’s very insulting to let others know that I was rejected. I have to stop thinking about it.’ He felt bullied as if they were asserting their superiority over him. ‘They are the car owners; they don’t want to see a stranger exhibiting superiority in their car. Where is my head travelling?’"
 
-# A signboard appears, and the husband reads aloud, “180 kms to **[destination]**.”
+A signboard appears, and the husband reads aloud, “180 km to **[destination]**.”
 
-# At the serendipitous intersection of his own musing—where is my head traveling?—and the husband’s announcement, the young man exclaims and murmurs in exhaustion, “Again! You’re reading even this thought.”
+At the serendipitous intersection of his own musing—where is my head travelling?—and the husband’s announcement about the distance, the young man exclaims and murmurs in exhaustion, “Again! You’re reading even this thought. I am tired!”
 
-# “Let’s take a halt; I’m feeling tired,” the husband suggests, and the young guy screams within himself, his frustration reaching a crescendo.
+“Let’s take a halt; I’m feeling tired,” the husband suggests, and the young guy screams within himself, his frustration reaching a crescendo.
 
-# As he steps out of the car and walks to a table with the couple, the young man’s mind races with queries and numerous hypotheses, attempting to justify how they seem to be pulling off this eerie narrative coincidence. Seated around the table, he is lost in himself, gathering the courage to question them without sounding stupid. He has to be roused by them to place his food order with the waiter. Finding it embarrassing and an opportunity lost to question them about how they are masquerading his story as their own, he is worried and takes a sip of water from a glass. As he sips, a strange childhood memory surfaces—a memory of when he won the quiz competition for his team back in class IX. The stakes were high: if they answered correctly, they would win by 5 points, but a wrong answer would mean losing the competition by 10 points. Passing would still result in a loss by 5 points. The question was, ‘When is World’s Human Rights Day?’ He didn’t know the answer, nor did his team, but as the clock ticked, he stood up and declared, ‘December 10th.’ His teammates pulled him down, scolding him—that’s when, after a brief moment of suspense, the quiz master awarded them 10 points. Though he lied to his teammates later, claiming he had read it in newspapers, he didn’t actually know the answer; it had just come to him.
+As he steps out of the car and walks to a table with the couple, the young man’s mind races with queries and numerous hypotheses, attempting to justify how they seem to be pulling off this eerie narrative coincidence. Seated around the table, he is lost in himself, gathering the courage to question them without sounding stupid. He has to be roused by them to place his food order with the waiter. Finding it embarrassing and an opportunity lost to question them about how they are masquerading his story as their own, he is worried and takes a sip of water from a glass. As he sips, a strange childhood memory surfaces—a memory of when he won the quiz competition for his team back in class IX. The stakes were high: if they answered correctly, they would win by 5 points, but a wrong answer would mean losing the competition by 10 points. Passing would still result in a loss by 5 points. The question was, ‘When is World’s Human Rights Day?’ He didn’t know the answer, nor did his team, but as the clock ticked, he stood up and declared, ‘December 10th.’ His teammates pulled him down, scolding him—that’s when, after a brief moment of suspense, the quiz master awarded them 10 points. Though he lied to his teammates later, claiming he had read it in newspapers, he didn’t actually know the answer; it had just come to him.
 
-# “He began to question how he had managed to answer correctly, but no answer came. ‘Was it an insinuation from someone who knew? Could it be telepathy, good karma, some cosmic energy, or did I somehow read the quiz master’s mind?’ Many theories presented themselves as possible explanations. It was a moment reminiscent of Helen Keller’s experience when she was accused of plagiarism, a story he knew well from ‘The Story of My Life’—the only book he had ever read, gifted to him by his mother for his birthday. He retraced his memory just as she had, searching for the source of his knowledge. ‘I am scared,’ he thought. No rationale seemed to fit what was happening to him. Had the rejection shattered his protective shell, ushering in a new phase? He felt exposed, as if the couple were stripping him bare. ‘Has it always been like this, and I’m only now realizing it? Or has something within me broken, making my thoughts visible for all to read? Can I ever return to the person I was before? I hate this.’ He searched for inspiring stories from his past to lift his spirits, but none seemed relevant to his current ordeal. He felt like he was unraveling. He screamed silently. The urge to cry was strong, but he held back, honoring a promise he had made to himself. After washing his face, he engaged in a disjointed self-dialogue, flipping each worrisome thought into a more convenient perspective. Suddenly, he was filled with an inexplicable energy and excitement. With that newfound resolve, he began to eat and reinforced the ideas that had emerged from this mental reorientation.”
+“He began to question how he had managed to answer correctly, but no answer came. ‘Was it an insinuation from someone who knew? Could it be telepathy, good karma, some cosmic energy, or did I somehow read the quiz master’s mind?’ Many theories presented themselves as possible explanations. It was a moment reminiscent of Helen Keller’s experience when she was accused of plagiarism, a story he knew well from ‘The Story of My Life’—the only book he had ever read, gifted to him by his mother for his birthday. He retraced his memory just as she had, searching for the source of his knowledge. ‘I am scared,’ he thought. No rationale seemed to fit what was happening to him. Had the rejection shattered his protective shell, ushering in a new phase? He felt exposed as if the couple were stripping him bare. ‘Has it always been like this, and I’m only now realizing it? Or has something within me broken, making my thoughts visible for all to read? Can I ever return to the person I was before? I hate this.’ He searched for inspiring stories from his past to lift his spirits, but none seemed relevant to his current ordeal. He felt like he was unravelling. He screamed silently. The urge to cry was strong, but he held back, honouring a promise he had made to himself. After washing his face, he engaged in a disjointed self-dialogue, flipping each worrisome thought into a more convenient perspective. Suddenly, he was filled with an inexplicable energy and excitement. With that newfound resolve, he began to eat and reinforced the ideas that had emerged from this mental reorientation.”
 
-# The young man re-entered the car alongside them, invigorated with a newfound energy, and they set off once more.
+The young man re-entered the car alongside them, animated with newfound energy, and they set off once more.
 
-# “Well, a cheerful smile while tears rolled down his eyes—that’s the image I carried back home with me. Nothing bothered me until the point when all of this proposal business suddenly hit me,” she recounted.
+“Well, a cheerful smile while tears rolled down his eyes—that’s the image of his that I carried back home with me. Nothing bothered me until the point when all of this proposal business suddenly hit me,” she recounted.
 
-# “She has some impressive memory,” the young man mused to himself, having expected her to need some time or a prompt to pick up where she left off. “As I closed my eyes, that image of his face appeared; it was just as it had been when it all ended. I rose quickly.”
+“She has some impressive memory,” the young man mused to himself, having expected her to need some time or a prompt to pick up where she left off. “As I closed my eyes, that image of his face appeared; it was just as it had been when it all ended. I rose quickly.”
 
-# With a sense of resignation, the young man let his shoulders fall.
+With a sense of resignation, the young man let his shoulders fall.
 
-# “Like he knew where I could be found, I did not. The image of him kept visiting me; it started with naive innocence and later developed—or perhaps I fantasized it—into many such expressions, gauging his character and loving him more. I waited for him to reach out to me again. I knew he wouldn’t reach out to me directly after the way I rejected him. But at the classical event where he said he had seen me for the first time, he could come there to have a glance at me and still have a rational explanation for his presence. I made sure I was there every time there was an event; I had to attend for five weeks to catch a glimpse of him. As I set my eyes on him, he was already looking at me. All his fear had transformed into excitement within me. I rushed towards him, and he began to walk away. I drew close to him.”
+“Like he knew where I could be found, I did not. The image of him kept visiting me; it started with naive innocence and later developed—or perhaps I fantasized about it—into many such expressions, gauging his character and loving him more. I waited for him to reach out to me again. I knew he wouldn’t reach out to me directly after the way I rejected him. But at the classical event where he said he had seen me for the first time, he could come there to have a glance at me and still have a rational explanation for his presence. I made sure I was there every time there was an event; I had to attend for five weeks to catch a glimpse of him. As I set my eyes on him, he was already looking at me. All his fear had transformed into excitement within me. I rushed towards him, and he began to walk away. I drew close to him.”
 
-# “That’s when I understood the depth of the impact I had on him that day—the loss of someone dearly loved,” she reflected.
+“That’s when I understood the depth of the impact I had on him that day—the loss of someone dearly loved,” she reflected.
 
-# “And this is the night I saw him with that similar and intense feeling,” she concluded.
+“And this is the night I saw him with that similar and intense feeling,” she concluded.
 
-# Her story seeded a flicker of hope in the young man, yet it arrived at a precarious time. The nascent hope began to puncture the bubble he had meticulously crafted, turning every worrisome thought to his favor. With the shadow of doubt looming, he was resolute, exerting every effort to maintain the bubble’s integrity, to forestall its rupture and the potential dissolution of the tenuous serenity he had achieved.
+Her story seeded a flicker of hope in the young man, yet it arrived at a precarious time. The nascent hope began to puncture the bubble he had meticulously crafted, turning every worrisome thought in his favour. With the shadow of doubt looming, he was resolute, exerting every effort to maintain the bubble’s integrity, to forestall its rupture and the potential dissolution of the tenuous serenity he had achieved.
 
-# “For a moment, I wondered what would have happened to him if I had never met him again, but it was no time for ‘ifs’ and ‘buts.’ I met him, and we were both happy. He should be able to cling to this event and be hopeful.”
+“For a moment, I wondered what would have happened to him if I had never met him again, but it was no time for ‘ifs’ and ‘buts.’ I met him, and we were both happy. He should be able to cling to this event and be hopeful.”
 
-# The young lad’s hope fluctuated but was restored.
+The young lad’s hope fluctuated but was restored.
 
-# They spotted a tall old man, seemingly older than all three, at a distance, signaling for a ride. The lady suggested, “I am thinking of stopping for him; you may have to take the backseat?”
+They spotted a tall old man, seemingly older than all three, at a distance, signalling for a ride. The lady suggested, “I am thinking of stopping for him; you may have to take the backseat?”
 
-# “I am fine with that; I wouldn’t mind,” he replied.
+“I am fine with that; I wouldn’t mind,” he replied.
 
-# They pulled over, and the old man climbed in with his travel bag, and together, they resumed their journey.
+They pulled over, and the old man climbed in with his travel bag, and together, they resumed their journey.
 
-# “Let’s continue the story,” the husband prompted from the backseat, as if sensing the young man’s curiosity.
+“Let’s continue the story,” the husband prompted from the backseat as if sensing the young man’s curiosity.
 
-# “We’re in the middle of a story—I mean, I am telling them a story,” she clarified.
+“We’re in the middle of a story—I mean, I am telling them a story,” she clarified.
 
-# “Do you want to listen?” she asked the old man.
+“Do you want to listen?” she asked the old man.
 
-# He remained silent, his face etched with confusion, but she took it as consent and proceeded.
+He remained silent, his face etched with confusion, but she took it as consent and proceeded.
 
-# “Well, you haven’t missed much. One day, my husband came home, he is sad and depressed. His emotions so loud on his face, a sight from 20 years ago. It took me three days to coax out what had happened. Finally, he revealed that he had lost his most cherished possession—the manuscript of his novel. Though the idea had been with him for the past 23 years, he had never felt as close to it as he had in the last 7 years before its loss.”
+“Well, you haven’t missed much. One day, my husband came home, and he was sad and depressed. His emotions are so loud on his face, a sight from 20 years ago. It took me three days to figure out what had happened. Finally, he revealed that he had lost his most cherished possession—the manuscript of his novel. Though the idea had been with him for the past 23 years, he had never felt as close to it as he had in the last 7 years before its loss.”
 
-# The young man, relieved that the story didn’t mirror his own, pondered the significance of the numbers ‘7’ and ‘23.’ His gaze drifted to the old man, whose head had drooped, and who turned towards the lady with a faint smile that failed to mask a hint of guilt. “Are they weaving him into their story now?” he wondered.
+The young man, relieved that the story didn’t mirror his own, pondered the significance of the numbers ‘7’ and ‘23.’ His gaze drifted to the old man, whose head had drooped, and who turned towards the lady with a faint smile that failed to mask a hint of guilt. “Are they weaving him into their story now?” he wondered.
 
-# The lady continued, “He kept all the pain to himself, never speaking out. I assumed he might be going through a lot of pain and would eventually get over it, but he never tried. He started to feel guilty.”
+The lady continued, “He kept all the pain to himself, never speaking out. I assumed he might be going through a lot of pain and would eventually get over it, but he never tried. He started to feel guilty.”
 
-# The young man observed the old man’s reaction to the story and murmured, “This couple are serial readers.”
+The young man observed the old man’s reaction to the story and murmured, “This couple are serial readers.”
 
-# The lady went on, “He blamed himself for his carelessness, for the useless values he had clung to, like not having written his name or address on the manuscript.”
+The lady went on, “He blamed himself for his carelessness, for the useless values he had clung to, like not having written his name or address on the manuscript.”
 
-# The old man appeared uncomfortable.
+The old man appeared uncomfortable.
 
-# The young lad’s thoughts raced investigatively. “What could be the old man’s story? Reading mine was simple because love is common, but not all are writers, and this old man doesn’t look like one. What could he have lost? What else could one have for 23 years and be close to for 7 years? That is the key. No doubt they are reading his story. A pet? No, not for 23 years. A loss, but what kind? Death? If so, who could it be? He is alone, probably his wife?” His imagination rushed to a graveyard. “That’s sensitive, even for me to think about. How are they doing it?” Frightened by the thoughts he was encountering, he put his deductions to rest and quickly caught up with the narration.
+The young lad’s thoughts raced investigative. “What could be the old man’s story? Reading mine was simple because love is common, but not all are writers, and this old man doesn’t look like one. What could he have lost? What else could one have for 23 years and be close to for 7 years? That is the key. No doubt they are reading his story. A pet? No, not for 23 years. A loss, but what kind? Death? If so, who could it be? He is alone, probably his wife?” His imagination rushed to a graveyard. “That’s sensitive, even for me to think about. How are they doing it?” Frightened by the thoughts he was encountering, he put his deductions to rest and quickly caught up with the narration.
 
-# “He couldn’t come out of it and resorted to alcohol to forget. I gave him time to realize that alcohol wouldn’t help but would only bring more and new problems. He soon started to blame his memory, which didn’t help him answer the question about how the book started. Soon after he lost his manuscript on the train, four kids who found it reached out to him, but when he claimed it as his, the kids expected an answer about how the book starts. Despite not being able to prove he was the author, he left an impression of a thief with them.”
+“He couldn’t come out of it and resorted to alcohol to forget. I gave him time to realize that alcohol wouldn’t help but would only bring more and new problems. He soon started to blame his memory, which didn’t help him answer the question about how the book started. Soon after he lost his manuscript on the train, four kids who found it reached out to him, but when he claimed it as his, the kids expected an answer about how the book starts. Despite not being able to prove he was the author, he left an impression of a thief with them.”
 
-# “His wife could have been sick, and he might have exhibited negligence in taking care of her. That’s why, burdened with guilt, he became an alcoholic. I am jumping to conclusions; I won’t approve of it. If I speak now, I will not only sound stupid but could hurt others’ feelings and sentiments.” The young lad hated his speculative deductions about the old man.
+“His wife could have been sick, and he might have exhibited negligence in taking care of her. That’s why, burdened with guilt, he became an alcoholic. I am jumping to conclusions; I won’t approve of it. If I speak now, I will not only sound stupid but could hurt others’ feelings and sentiments.” The young lad hated his speculative deductions about the old man.
 
-# “One day, I took it seriously, forced him to shower, groomed him, dressed him in new clothes, and dropped him at the library. I asked him not to drink that day to see the difference, I asked him to try. That day was hard for him, but towards the end, he found a pamphlet on the library’s lost and found notice board that read, ‘We have found a manuscript of a novel on the train. If you think it is yours, please call us.’ He dialed the number but couldn’t answer the questions posed to verify his authenticity. He started to believe he was losing his memory. To forget that he was losing his memory, he returned to drinking. The memory loss slowly started to become real for him. With him like that and me worrying for him, our home fell to nothing. I decided to take him to rehab, and he joined, but he couldn’t stay for more than a week. On one of my visits, he cried to be taken away. I felt sad and brought him home. I decided I would treat him myself with whatever he was facing, by showing a little more love.”
+“One day, I took it seriously, forced him to shower, groomed him, dressed him in new clothes, and dropped him at the library. I asked him not to drink that day to see the difference, I asked him to try. That day was hard for him, but towards the end, he found a pamphlet on the library’s lost and found notice board that read, ‘We have found a manuscript of a novel on the train. If you think it is yours, please call us.’ He dialled the number but couldn’t answer the questions posed to verify his authenticity. He started to believe he was losing his memory. To forget that he was losing his memory, he returned to drinking. The memory loss slowly started to become real for him. With him like that and me worrying for him, our home fell to nothing. I decided to take him to rehab, and he joined, but he couldn’t stay for more than a week. On one of my visits, he cried to be taken away. I felt sad and brought him home. I decided I would treat him myself with whatever he was facing, by showing a little more love.”
 
-# The young lad’s mind was a whirlwind of thoughts and suspicions, each more unsettling than the last. He had told himself sternly, “Don’t mislead me, stop making noise,” as if scolding his own mind would silence the theories it spun about the old man. “He is guilty of his mistake. Do you know what mistake he made? His negligent behavior allowed him to give one medication for another. He overdosed her. He is guilty of it, and someone helped him with the rehab.”
+The young lad’s mind was a whirlwind of thoughts and suspicions, each more unsettling than the last. He had told himself sternly, “Don’t mislead me, stop making noise,” as if scolding his own mind would silence the theories it spun about the old man. “He is guilty of his mistake. Do you know what mistake he made? His negligent behaviour allowed him to give one medication for another. He overdosed her. He is guilty of it, and someone helped him with the rehab.”
 
-# “That seemed to have worked, and here he is,” the lady concluded.
+“That seemed to have worked, and here he is,” the lady concluded.
 
-# The young lad yearned for confirmation—had she read out his story? The only way to know for sure was to see if she had read the old man’s story by matching his deductions.
+The young lad yearned for confirmation—had she read out his story? The only way to know for sure was to see if she had read the old man’s story by matching his deductions.
 
-# “I will get down here,” the old man announced.
+“I will get down here,” the old man announced.
 
-# The lady pulled over the car slowly.
+The lady pulled over the car slowly.
 
-# “Thank you very much, you sound just like my daughter, though she is younger than you.”
+“Thank you very much, you sound just like my daughter, though she is younger than you.”
 
-# “You see, the daughter must have helped him overcome the grief,” the young lad thought, but that deduction wasn’t enough. He toyed with the idea of getting down there with the old man and was almost convinced to do so.
+“You see, the daughter must have helped him overcome the grief,” the young lad thought, but that deduction wasn’t enough. He toyed with the idea of getting down there with the old man and was almost convinced to do so.
 
-# The lady, pleased, suggested, “Let’s have a cup of coffee.”
+The lady, pleased, suggested, “Let’s have a cup of coffee.”
 
-# “Sure,” the old man agreed.
+“Sure,” the old man agreed.
 
-# They all disembarked. The young lad was now brimming with questions. He sought a private moment with the old man before rejoining the couple in the car. He insisted on carrying the old man’s bag into the coffee shop.
+They all disembarked. The young lad was now brimming with questions. He sought a private moment with the old man before rejoining the couple in the car. He insisted on carrying the old man’s bag into the coffee shop.
 
-# Walking together behind the couple into the cafe, the young lad asked, “Where are you traveling from?”
+Walking together behind the couple into the cafe, the young lad asked, “Where are you travelling from?”
 
-# “My daughter’s house to my house,” the old man replied.
+“My daughter’s house to my house,” the old man replied.
 
-# The young lad probed further, “You must be attending some function of relatives?”
+The young lad probed further, “You must be attending some function of relatives?”
 
-# “No, I have been staying at her place for the past three months. I kind of missed home, so I came.”
+“No, I have been staying at her place for the past three months. I kind of missed home, so I came.”
 
-# “I can see that excitement. You’re not taking your wife and daughter with you?”
+“I can see that excitement. You’re not taking your wife and daughter with you?”
 
-# “I have been living alone for the past 2 years after my wife passed away,” the old man revealed.
+“I have been living alone for the past 2 years after my wife passed away,” the old man revealed.
 
-# The young lad’s curiosity intensified, but he tempered his excitement, realizing the sensitivity of the topic.
+The young lad’s curiosity intensified, but he tempered his excitement, realizing the sensitivity of the topic.
 
-# “I am sorry,” he offered.
+“I am sorry,” he offered.
 
-# “Thank you!” the old man responded, then lightened the mood, “Well, the disease needs to be sorry.”
+“Thank you!” the old man responded, then lightened the mood, “Well, the disease needs to be sorry.”
 
-# “Did she suffer long?” the young lad inquired.
+“Did she suffer long?” the young lad inquired.
 
-# “She suffered for 7 years. I should have taken better care of her,” the old man confessed.
+“She suffered for 7 years. I should have taken better care of her,” the old man confessed.
 
-# The young lad, upon hearing ‘7 years,’ was eager to confirm if their marriage had lasted for 23 years. He carefully phrased his question to be respectful.
+The young lad, upon hearing ‘7 years,’ was eager to confirm if their marriage had lasted for 23 years. He carefully phrased his question to be respectful.
 
-# “Well, I have gone through that phase, and it’s over now. I stay with my daughter; she takes care of me. I went into a depression like that fellow,” the old man said, pointing towards the elderly man.
+“Well, I have gone through that phase, and it’s over now. I stay with my daughter; she takes care of me. I went into a depression like that fellow,” the old man said, pointing towards the elderly man.
 
-# The young lad, driven by his deductions, was tempted to ask if the old man had accidentally overdosed his wife. Fearful that his thoughts might betray him, he cautiously asked, “If I may ask… How many years were you together in marriage?”
+The young lad, driven by his deductions, was tempted to ask if the old man had accidentally overdosed his wife. Fearful that his thoughts might betray him, he cautiously asked, “If I may ask… How many years were you together in marriage?”
 
-# “23, but I only understood her importance in those last 7 years of her suffering,” the old man answered.
+“23, but I only understood her importance in those last 7 years of her suffering,” the old man answered.
 
-# The young lad’s anxiety peaked, trembling at the thought that his hypothesis—that they were narrating the passengers’ stories as their own—might be true.
+The young lad’s anxiety peaked, trembling at the thought that his hypothesis—that they were narrating the passengers’ stories as their own—might be true.
 
-# “Please don’t mind me saying this, but I think you should be careful.”
+“Please don’t mind me saying this, but I think you should be careful.”
 
-# “Careful?! Did I do something wrong?”
+“Careful?! Did I do something wrong?”
 
-# “No, you didn’t do anything wrong, but your past is vulnerable, just like mine.”
+“No, you didn’t do anything wrong, but your past is vulnerable, just like mine.”
 
-# “What do you mean?” the old man asked, puzzled.
+“What do you mean?” the old man asked, puzzled.
 
-# “She read out your story, substituting your loss with their loss of the book. It’s not fair.”
+“She read out your story, substituting your loss with their loss of the book. It’s not fair.”
 
-# “Did she?”
+“Did she?”
 
-# “Yes, she did. She even mentioned the numbers 23 and 7, which were the exact years your marriage with your wife lasted and the years you were close to her. The couple are serial readers.”
+“Yes, she did. She even mentioned the numbers 23 and 7, which were the exact years your marriage with your wife lasted and the years you were close to her. The couple are serial readers.”
 
-# “Maybe it’s a coincidence.”
+“Maybe it’s a coincidence.”
 
-# “It can’t be a coincidence. The numbers 23 and 7 were accurate, and you were feeling guilty about…” He caught himself before he could finish the thought. After a pause, he continued, “Earlier, they told their love story, and it perfectly matched mine. Now yours matched too.”
+“It can’t be a coincidence. The numbers 23 and 7 were accurate, and you were feeling guilty about…” He caught himself before he could finish the thought. After a pause, he continued, “Earlier, they told their love story, and it perfectly matched mine. Now yours matched too.”
 
-# “Now that I think about it, I did wonder if they were talking about me during the part where he got addicted and went to rehab. But in my case, when I was in rehab, there were many people there with a past similar to mine.”
+“Now that I think about it, I did wonder if they were talking about me during the part where he got addicted and went to rehab. But in my case, when I was in rehab, there were many people there with a past similar to mine.”
 
-# “Maybe, but what if they never lost a book, nor were they in love? What if they’re just reading our minds?”
+“Maybe, but what if they never lost a book, nor were they in love? What if they’re just reading our minds?”
 
-# The old man laughed cautiously. “At this age, I don’t think I would mind if they have read my mind or not. I have nothing to lose. It’s all in my head, and I am constantly dealing with it. The only thing I might worry about is some stranger getting to know about it. I’m not someone who hides from his mistakes. If I’ve done something wrong, I’d just tell them what I’ve told myself. Back in my adulthood, I too was worried about this phenomenon of people reading my mind and mocking my errors. I couldn’t handle it. I tried thinking loudly about random stuff so that they’d fall into the trap of reading them, if they were at all. I tried to see myself from an eagle’s eye view, considering the weather, the situation, the context, what I was wearing, what I was representing. I observed how my past influenced the decisions my friends and I made as a group. It takes a lot of energy, and it was difficult to always be situationally aware. I guess with time, I stopped worrying about that phenomenon and let myself go. Maybe I was a bit older than you are now, back then. If I have to think along the lines of your hypothesis, I see that the story was finished so quickly, almost exactly when we arrived at my drop-off location, because my mind was constantly thinking about how much distance was left. I’m visiting my home after a long time. Maybe she tuned into my thoughts of rush. Maybe that rush was part of the narration that led her to finish the story quickly, precisely at the location where I wanted to get down. To feel better about it, I adjusted or convinced myself to believe that it happens, no matter what.”
+The old man laughed cautiously. “At this age, I don’t think I would mind if they have read my mind or not. I have nothing to lose. It’s all in my head, and I am constantly dealing with it. The only thing I might worry about is some stranger getting to know about it. I’m not someone who hides from his mistakes. If I’ve done something wrong, I’d just tell them what I’ve told myself. Back in my adulthood, I too was worried about this phenomenon of people reading my mind and mocking my errors. I couldn’t handle it. I tried thinking loudly about random stuff so that they’d fall into the trap of reading them if they were at all. I tried to see myself from an eagle’s eye view, considering the weather, the situation, the context, what I was wearing, and what I was representing. I observed how my past influenced the decisions my friends and I made as a group. It takes a lot of energy, and it was difficult to always be situationally aware. I guess with time, I stopped worrying about that phenomenon and let myself go. Maybe I was a bit older than you are now, back then. If I have to think along the lines of your hypothesis, I see that the story was finished so quickly, almost exactly when we arrived at my drop-off location, because my mind was constantly thinking about how much distance was left. I’m visiting my home after a long time. Maybe she tuned into my thoughts of rush. Maybe that rush was part of the narration that led her to finish the story quickly, precisely at the location where I wanted to get down. To feel better about it, I adjusted or convinced myself to believe that it happens, no matter what.”
 
-# “People do it for many reasons. In this context, it seems harmless. I saw nothing more than an attempt to make the listener feel better. But there are worse instances where they extract secrets and exercise superiority.”
+“People do it for many reasons. In this context, it seems harmless. I saw nothing more than an attempt to make the listener feel better. But there are worse instances where they extract secrets and exercise superiority.”
 
-# “I know not everyone wants to be open about their past, but be aware of the situation and try not to get lost.”
+“I know not everyone wants to be open about their past, but be aware of the situation and try not to get lost.”
 
-# They joined the couple for coffee. While having coffee, the young lad was unaware that he was sternly looking at the couple. He was worried, thinking about how dangerous this phenomenon could be, and he believed it was morally wrong to invade others’ privacy, no matter the context. He wanted to let the couple know this.
+They joined the couple for coffee. While having coffee, the young lad was unaware that he was sternly looking at the couple. He was worried, thinking about how dangerous this phenomenon could be, and he believed it was morally wrong to invade others’ privacy, no matter the context. He wanted to let the couple know this.
 
-# They left the old man and started their journey. The young lad found some relief that the thought of the girl and the rejection hadn’t occurred to him for a long time. But soon, like the elderly man from the story his wife told, and as it once happened to him, he couldn’t form her image in his head and became worried. He tried to recollect the moment he first saw her, and the image slowly formed. As it formed, he didn’t feel much pain from the fact he got rejected.
+They left the old man and started their journey. The young lad found some relief that the thought of the girl and the rejection hadn’t occurred to him for a long time. But soon, like the elderly man from the story his wife told, and as it once happened to him, he couldn’t form her image in his head and became worried. He tried to recollect the moment he first saw her, and the image slowly formed. As it formed, he didn’t feel much pain from the fact he got rejected.
 
-# “Do you want to take the shotgun?”
+“Do you want to take the shotgun?”
 
-# This brought the young lad back to his senses about what he needed to do. He wanted to let them know what they were doing was wrong, but he had nothing to back him up to say it. He tried to say it indirectly, if not directly.
+This brought the young lad back to his senses about what he needed to do. He wanted to let them know what they were doing was wrong, but he had nothing to back him up to say it. He tried to say it indirectly, if not directly.
 
-# The young lad, still wary of confronting their morality, crafted an indirect question: “I have a question. Let’s say two people are having a duel. Would it be moral for one person to acquire all the powers of another and use them against that person?”
+The young lad, still wary of confronting their morality, crafted an indirect question: “I have a question. Let’s say two people are having a duel. Would it be moral for one person to acquire all the powers of another and use them against that person?”
 
-# Unaware of his disillusionment and proud of his subtlety, he observed their puzzled expressions, interpreting them as a sign that he had caught them off guard.
+Unaware of his disillusionment and proud of his subtlety, he observed their puzzled expressions, interpreting them as a sign that he had caught them off guard.
 
-# “The last time I was as puzzled as I am now was when I turned on the wipers instead of the headlights,” one of them remarked, seemingly deflecting the question with humor.
+“The last time I was as puzzled as I am now was when I turned on the wipers instead of the headlights,” one of them remarked, seemingly deflecting the question with humour.
 
-# “Honestly, how can one gain the powers of another, let alone use them against the person?” they pondered.
+“Honestly, how can one gain the powers of another, let alone use them against the person?” they pondered.
 
-# The young lad silently congratulated himself, thinking, “That’s how you trap someone with a question; they cannot escape now.” He felt each response tightened the trap.
+The young lad silently congratulated himself, thinking, “That’s how you trap someone with a question; they cannot escape now.” He felt each response tightened the trap.
 
-# “You must have seen such scenarios in mythological movies,” he suggested.
+“You must have seen such scenarios in mythological movies,” he suggested.
 
-# “I guess, but when one takes over the powers of another and uses them against the original owner, it demeans the fight between two superpowers,” they replied.
+“I guess, but when one takes over the powers of another and uses them against the original owner, it demeans the fight between two superpowers,” they replied.
 
-# His excitement peaked, hands trembling and voice quivering, “So you agree it’s bad?”
+His excitement peaked, hands trembling and voice quivering, “So you agree it’s bad?”
 
-# “Good or bad, it kills the entertainment,” they responded.
+“Good or bad, it kills the entertainment,” they responded.
 
-# The young lad insisted, “Yes, it kills, and it’s bad.”
+The young lad insisted, “Yes, it kills, and it’s bad.”
 
-# He noticed his hands shaking uncontrollably and comforted himself, thinking this must be what courage feels like.
+He noticed his hands shaking uncontrollably and comforted himself, thinking this must be what courage feels like.
 
-# They soon encountered a middle-aged man who appeared to be a reporter, based on his attire and demeanor. After he hopped into the front seat, the reporter immediately began transferring notes from a scribble pad to a notebook, drawing the silent attention of the others. The young lad, momentarily abandoning his moral stance, secretly hoped the couple would unsettle the reporter as they had done to him.
+They soon encountered a middle-aged man who appeared to be a reporter, based on his attire and demeanor. After he hopped into the front seat, the reporter immediately began transferring notes from a scribble pad to a notebook, drawing the silent attention of the others. The young lad, momentarily abandoning his moral stance, secretly hoped the couple would unsettle the reporter as they had done to him.
 
-# Once the reporter finished his work, he apologized, “I’m sorry, I’m caught up in a very important thing.” He then asked if they had seen the movie “It’s Unpublished Yet!”
+Once the reporter finished his work, he apologized, “I’m sorry, I’m caught up in a very important thing.” He then asked if they had seen the movie “It’s Unpublished Yet!”
 
-# “No, we don’t watch movies,” the lady replied, glancing at the young lad.
+“No, we don’t watch movies,” the lady replied, glancing at the young lad.
 
-# “I was busy; I didn’t know a movie like that had come out,” the young lad added.
+“I was busy; I didn’t know a movie like that had come out,” the young lad added.
 
-# “It’s based on a newspaper article I wrote,” the reporter revealed.
+“It’s based on a newspaper article I wrote,” the reporter revealed.
 
-# They didn’t seem to have accepted his apology for being discourteous, and the idea to congratulate him didn’t cross their minds.
+They didn’t seem to have accepted his apology for being discourteous, and the idea of congratulating him didn’t cross their minds.
 
-# The lady affirmed, “So, you are a reporter?”
+The lady affirmed, “So, you are a reporter?”
 
-# “Yes, I am. It’s about four kids who found a nameless manuscript on a train.”
+“Yes, I am. It’s about four kids who found a nameless manuscript on a train.”
 
-# “They decide to find the author and give it to him,” all three, the young lad and the couple, said in chorus.
+“They decide to find the author and give it to him,” all three, the young lad and the couple, said in chorus.
 
-# “You people have seen the movie,” the reporter said playfully.
+“You people have seen the movie,” the reporter said playfully.
 
-# “No, we haven’t.”
+“No, we haven’t.”
 
-# “Then you must have read the article,” the reporter was now skeptical.
+“Then you must have read the article,” the reporter was now sceptical.
 
-# “But it appeared in a newspaper with not many readers.”
+“But it appeared in a newspaper with not many readers.”
 
-# “No, we haven’t read it either.”
+“No, we haven’t read it either.”
 
-# “Then how come you know about it?” the reporter was unquestionably curious now, and the chorus continued mockingly and teasingly.
+“Then how come you know about it?” the reporter was unquestionably curious now, and the chorus continued mockingly and teasingly.
 
-# “They get off the train and travel back, sticking it at every library,” the chorus continued.
+“They get off the train and travel back, sticking it at every library,” the chorus continued.
 
-# “Someone who read the article or watched the movie must have told you.”
+“Someone who read the article or watched the movie must have told you.”
 
-# “No, you won’t be able to guess it. They ask questions to everyone who claims the manuscript as theirs.”
+“No, you won’t be able to guess it. They ask questions to everyone who claims the manuscript as theirs.”
 
-# “But how? I don’t know what’s happening here!” the reporter went fuzzy.
+“But how? I don’t know what’s happening here!” the reporter went fuzzy.
 
-# The elderly man started, “Because I am the author of it, the one who lost it.”
+The elderly man started, “Because I am the author of it, the one who lost it.”
 
-# The reporter overlapped him, “Okay, come on now! You won’t be able to know this information which I am about to say because I myself just found out about it. They found the author; some lady called the kids up, and her answers matched 68%, so they decided to give it to her.”
+The reporter overlapped him, “Okay, come on now! You won’t be able to know this information which I am about to say because I myself just found out about it. They found the author; some lady called the kids up, and her answers matched 68%, so they decided to give it to her.”
 
-# The lady turned her head and looked at her husband.
+The lady turned her head and looked at her husband.
 
-# “Now don’t say a thing. Ignore it like he did. Finally, the book is going to see the light of day,” the lady exclaimed.
+“Now don’t say a thing. Ignore it like he did. Finally, the book is going to see the light of day,” the lady exclaimed.
 
-# As the young lad observed, the old man struggled to stop himself from saying anything. “Yes, we don’t know,” the old man said happily.
+As the young lad observed, the old man struggled to stop himself from saying anything. “Yes, we don’t know,” the old man said happily.
 
-# “I am sorry to have interrupted you. What were you saying?” the reporter asked the elderly man.
+“I am sorry to have interrupted you. What were you saying?” the reporter asked the elderly man.
 
-# “Forget about it. The book already took a long time to see the light; now we don’t want to block it any further.”
+“Forget about it. The book already took a long time to see the light; now we don’t want to block it any further.”
 
-# “What do you mean, you don’t want to block it any further?”
+“What do you mean, you don’t want to block it any further?”
 
-# “Nothing,” the lady interjected, trying to distract the reporter from the topic. “He is talking about the book we wrote. It is based on how we journeyed through after he lost his dear thing.”
+“Nothing,” the lady interjected, trying to distract the reporter from the topic. “He is talking about the book we wrote. It is based on how we journeyed through after he lost his dear thing.”
 
-# “Do you write?”
+“Do you write?”
 
-# “Yes, we wrote it together,” that brought a smile to the elderly man’s face.
+“Yes, we wrote it together,” that brought a smile to the elderly man’s face.
 
-# “Look at how happy he and we are now.”
+“Look at how happy he and we are now.”
 
-# The young lad thought he would have never let the book or something dear to one slip away so simply for seven years. He thought, “I would have tried at least. Is it so simple and easy to let go of something that is so dear to one?” and he started to think about the girl and questioned, “Will I be able to let go of my feelings for her so easily?” and answered it, “Maybe I can try if I want to.”
+The young lad thought he would have never let the book or something dear to one slip away so simply for seven years. He thought, “I would have tried at least. Is it so simple and easy to let go of something that is so dear to one?” and he started to think about the girl and questioned, “Will I be able to let go of my feelings for her so easily?” and answered it, “Maybe I can try if I want to.”
 
-# “Can I read it?” the reporter asked the lady.
+“Can I read it?” the reporter asked the lady.
 
-# “It is unpublished yet!”
+“It is unpublished yet!”
 
-# “Don’t lose it; not every child is as crazy as those four kids to get it back,” the reporter laughed.
+“Don’t lose it; not every child is as crazy as those four kids to get it back,” the reporter laughed.
 
-# “We have taken care of it; we have our postal address and telephone number on it.”
+“We have taken care of it; we have our postal address and telephone number on it.”
 
-# “Learned from our mistake,” said the elderly man.
+“Learned from our mistake,” said the elderly man.
 
-# The lady quickly turned back to him and spoke to the reporter, distracting him from the puzzle he had gathered.
+The lady quickly turned back to him and spoke to the reporter, distracting him from the puzzle he had gathered.
 
-# “Give us your contact; we will post it to you once it’s done.”
+“Give us your contact; we will post it to you once it’s done.”
 
-# “That helps,” the reporter said.
+“That helps,” the reporter said.
 
-# The reporter went into the bag and fetched a card, passing it to the lady. He felt some cassettes in his bag.
+The reporter went into the bag and fetched a card, passing it to the lady. He felt some cassettes in his bag.
 
-# “Do you guys want to listen to some music? I have a few cassettes,” the reporter offered.
+“Do you guys want to listen to some music? I have a few cassettes,” the reporter offered.
 
-# “What cassettes do you have?” the elderly man inquired.
+“What cassettes do you have?” the elderly man inquired.
 
-# As the reporter named them, the elderly man sighed in relief. “Finally, someone is going to reintroduce us to some long-forgotten songs.”
+As the reporter named them, the elderly man sighed in relief. “Finally, someone is going to reintroduce us to some long-forgotten songs.”
 
-# The young lad looked around; his stop was nearing. As the reporter played a cassette, the young lad became statue-still, enveloped by the music.
+The young lad looked around; his stop was nearing. As the reporter played a cassette, the young lad became statue-still, enveloped by the music.
 
-# The song began, and everyone joined in the lyrics except for the young lad. The elderly man beside him invited him to join the chorus, and the young lad hesitantly obliged. As they sang together, the young lad’s spirits lifted. Thoughts of her occasionally zoned him out, but he began to feel hopeful. Perhaps it was the couple’s story instilling hope, or maybe they were simply reflecting his own story back at him with added optimism. The old man, moving to the tune and humming loudly, tapped the young lad’s shoulder, encouraging him to groove along. The young lad rejoined the singing and dancing, enjoying the ride.
+The song began, and everyone joined in the lyrics except for the young lad. The elderly man beside him invited him to join the chorus, and the young lad hesitantly obliged. As they sang together, the young lad’s spirits lifted. Thoughts of her occasionally zoned him out, but he began to feel hopeful. Perhaps it was the couple’s story instilling hope, or maybe they were simply reflecting his own story back at him with added optimism. The old man, moving to the tune and humming loudly, tapped the young lad’s shoulder, encouraging him to groove along. The young lad rejoined the singing and dancing, enjoying the ride.
 
-# “In two songs, we’ll reach my stop,” the young lad announced, continuing to hum.
+“In two songs, we’ll reach my stop,” the young lad announced, continuing to hum.
 
-# “Coffee time,” the couple chimed in, still humming.
+“Coffee time,” the couple chimed in, still humming.
 
-# After the song, they stopped the music. The reporter mentioned he had to hurry, but the couple insisted he stay, and he acquiesced.
+After the song, they stopped the music. The reporter mentioned he had to hurry, but the couple insisted he stay, and he acquiesced.
 
-# They drank coffee and conversed. The lady found the coffee too hot to sip. “Don’t be nervous,” she said. “You reminded me of him 20 years ago when he first came to meet me. Are you like him? Do you have any such stories?”
+They drank coffee and conversed. The lady found the coffee too hot to sip. “Don’t be nervous,” she said. “You reminded me of him 20 years ago when he first came to meet me. Are you like him? Do you have any such stories?”
 
-# The young lad was surprised and relieved they hadn’t read his thoughts aloud.
+The young lad was surprised and relieved they hadn’t read his thoughts aloud.
 
-# “I think I have one, but your story was great. I enjoyed it,” he said.
+“I think I have one, but your story was great. I enjoyed it,” he said.
 
-# “I guess each of you contributed to it. I was jumping onto all the new thoughts that sparked, only to make it engaging. I hope I didn’t offend you or come across as intrusive.”
+“I guess each of you contributed to it. I was jumping onto all the new thoughts that sparked, only to make it engaging. I hope I didn’t offend you or come across as intrusive.”
 
-# The young lad’s thoughts were pronounced, but he hesitated and refrained from mentioning them, instead saying, “It was a good time.”
+The young lad’s thoughts were pronounced, but he hesitated and refrained from mentioning them, instead saying, “It was a good time.”
 
-# The young lad apologized for insisting to answer his duel question in his favor, and that got every one laughing.
+The young lad apologized for insisting on answering his duel question in his favour, and that got everyone laughing.
 
-# They wished each other well and parted ways.
+They wished each other well and parted ways.
 
-# The young lad approached the elderly man. “What would you have done if she never looked back at you?”
+The young lad approached the elderly man. “What would you have done if she never looked back at you?”
 
-# The elderly man replied, “I had already made up my mind to have one last glance at her face for my memory and then stop seeing her. But who knows? I might have lost myself as I did when I lost the manuscript. Without her by my side, I may have never found myself again. Now that I think about it, all it takes is a try.”
+The elderly man replied, “I had already made up my mind to have one last glance at her face for my memory and then stop seeing her. But who knows? I might have lost myself as I did when I lost the manuscript. Without her by my side, I may have never found myself again. Now that I think about it, all it takes is a try.”
 
-# A melancholic smile surfaced on the young lad’s face, and they waved goodbye.
+A melancholic smile surfaced on the young lad’s face, and they waved goodbye.
 
-# The car drove away, and the young lad walked down a lane from the highway. Thoughts of her and the rejection visited him, but they no longer bothered him. Surprisingly, he had attained a sense of objectivity over it.
+The car drove away, and the young lad walked down a lane from the highway. Thoughts of her and the rejection visited him, but they no longer bothered him. Surprisingly, he had attained a sense of objectivity over it.
 
-# Humming the lyrics, he walked on the road flanked by trees, amidst the sound of the wind. The whirring sound of a car intensified and then slowly faded as he neared his home.
+Humming the lyrics, he walked on the road flanked by trees, amidst the sound of the wind. The whirring sound of a car intensified and then slowly faded as he neared his home.
 
-#   CONTENT
+
+  CONTENT
 # tale2.save!
-# tale3.save!
+tale3.save!

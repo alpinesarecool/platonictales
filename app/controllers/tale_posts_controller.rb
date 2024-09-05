@@ -9,6 +9,8 @@ class TalePostsController < ApplicationController
     @tale_post = TalePost.find(params[:id])
     @page_number = params[:page].to_i
     @content_pages = paginate_content(@tale_post.body, 500)
+    @total_pages = @content_pages.size
+
     @page_content = @content_pages[@page_number] || @content_pages.last
     TalesViewJob.perform_later(@tale_post)
   rescue ActiveRecord::RecordNotFound

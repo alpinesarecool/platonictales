@@ -1,3 +1,5 @@
+<!-- app/views/tale_posts/show.html.erb -->
+
 <div class="flex flex-col space-y-8">
   <!-- Heading -->
   <h1 class="text-3xl font-bold mb-4">
@@ -6,6 +8,23 @@
 
   <!-- Content -->
   <div class="prose max-w-none">
-    <%= markdown(@tale_post.body) %>
+    <%= markdown(@page_content) %>
+  </div>
+
+  <!-- Pagination Controls -->
+  <div class="flex justify-between w-full mt-4" style = "justify-content: space-between;">
+    <!-- Previous Link -->
+      <% if @page_number > 0 %>
+        <%= link_to "Previous", tale_post_path(@tale_post, page: @page_number - 1), class: "text-blue-500" %>
+      <% else %>
+        <span></span> <!-- Empty span as a placeholder -->
+      <% end %>
+
+    <!-- Next Link -->
+      <% if @page_number < (@content_pages.size - 1) %>
+        <%= link_to "Next", tale_post_path(@tale_post, page: @page_number + 1), class: "text-blue-500" %>
+      <% else %>
+        <span></span> <!-- Empty span as a placeholder -->
+      <% end %>
   </div>
 </div>

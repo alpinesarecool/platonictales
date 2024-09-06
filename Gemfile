@@ -59,3 +59,4 @@ end
 gem "tailwindcss-rails", "~> 2.7"
 gem 'redcarpet'
 gem 'coderay'
+gem 'dotenv-rails'

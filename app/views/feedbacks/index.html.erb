@@ -1,0 +1,27 @@
+<!-- app/views/feedbacks/index.html.erb -->
+<div class="flex flex-wrap gap-6">
+  <div class="mb-2">
+<h1>All Feedbacks</h1>
+  </div>
+<table class="table-auto w-full border border-gray-200">
+  <thead>
+    <tr>
+      <th class="border border-gray-300 px-4 py-2">ID</th>
+      <th class="border border-gray-300 px-4 py-2">Comment</th>
+      <th class="border border-gray-300 px-4 py-2">Page Number</th>
+      <th class="border border-gray-300 px-4 py-2">Tale Post Title</th>
+      <th class="border border-gray-300 px-4 py-2">Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @feedbacks.each do |feedback| %>
+      <tr>
+        <td class="border border-gray-300 px-4 py-2"><%= feedback.id %></td>
+        <td class="border border-gray-300 px-4 py-2"><%= feedback.comment %></td>
+        <td class="border border-gray-300 px-4 py-2"><%= feedback.page_number %></td>
+        <td class="border border-gray-300 px-4 py-2"><%= feedback.tale_post.title %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+</div>

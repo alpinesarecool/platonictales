@@ -11,6 +11,8 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   root "tale_posts#index"
+  get "feedbacks" => "feedbacks#index", as: :feedbacks
+
   get "tale_posts/:id" => "tale_posts#show", as: :tale_post
   post "tale_posts/:id/feedback" => "tale_posts#create_feedback", as: :create_feedback
 end

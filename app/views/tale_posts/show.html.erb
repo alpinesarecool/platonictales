@@ -1,5 +1,13 @@
 <!-- app/views/tale_posts/show.html.erb -->
 
+<!-- Add a style block at the top of the file -->
+<style>
+  .custom-placeholder::placeholder {
+    opacity: 0.7; /* Adjust opacity between 0 and 1 */
+    color: #999999; /* Optional: Change color */
+  }
+</style>
+
 <div class="flex flex-col space-y-8">
   <!-- Heading -->
   <h1 class="text-3xl font-bold mb-4">
@@ -31,7 +39,7 @@
 <div class="mt-8">
 <%= form_with model: @feedback, url: create_feedback_path(@tale_post), method: :post, local: true, html: { id: "feedback-form" } do |f| %>
   <div class="mb-4">
-    <%= f.text_area :comment, rows: 4, class: "border p-2 w-full", placeholder: "Reading this had stimulated a better thought or an idea that has been missed. A dialogue or a word that you think enhances the reading experience... Drop it here. Feel free to drop in anything that can enhance.  Thank you for doing so!" %>
+    <%= f.text_area :comment, rows: 4, class: "border p-2 w-full custom-placeholder", placeholder: "Reading this sparked a new thought? Is there a detail or word that could enhance the experience? Feel free to share any improvements. Thanks!" %>
   </div>
   <!-- Hidden field to store the current page number -->
   <%= f.hidden_field :page_number, value: @page_number %>

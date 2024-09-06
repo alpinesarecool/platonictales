@@ -13,11 +13,30 @@ class TalePostsController < ApplicationController
 
     @page_content = @content_pages[@page_number] || @content_pages.last
     TalesViewJob.perform_later(@tale_post)
+    @feedback = Feedback.new
   rescue ActiveRecord::RecordNotFound
     redirect_to root_path, alert: "Tale post not found."
   end
 
+  def create_feedback
+    Rails.logger.info "Params: #{params.inspect}"
+    @tale_post = TalePost.find(params[:id])
+    @feedback = @tale_post.feedbacks.build(feedback_params)
+    @feedback.page_number = params[:feedback][:page_number]
+    @feedback.title = @tale_post.title
+
+    if @feedback.save
+      redirect_to tale_post_path(@tale_post, page: @feedback.page_number), notice: "Feedback submitted successfully."
+    else
+      redirect_to tale_post_path(@tale_post, page: @feedback.page_number), alert: "Failed to submit feedback."
+    end
+  end
+
   private
+
+  def feedback_params
+    params.require(:feedback).permit(:comment, :page_number)
+  end
 
   def paginate_content(content, words_per_page)
     paragraphs = content.split("\n\n")

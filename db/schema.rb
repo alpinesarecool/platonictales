@@ -10,9 +10,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.2].define(version: 2024_08_21_123822) do
+ActiveRecord::Schema[7.2].define(version: 2024_09_06_145504) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "feedbacks", force: :cascade do |t|
+    t.bigint "tale_post_id", null: false
+    t.integer "page_number"
+    t.string "title"
+    t.text "comment"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["tale_post_id"], name: "index_feedbacks_on_tale_post_id"
+  end
 
   create_table "tale_posts", force: :cascade do |t|
     t.string "title"
@@ -21,4 +31,6 @@ ActiveRecord::Schema[7.2].define(version: 2024_08_21_123822) do
     t.datetime "updated_at", null: false
     t.integer "view_count"
   end
+
+  add_foreign_key "feedbacks", "tale_posts"
 end

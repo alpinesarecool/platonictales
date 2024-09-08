@@ -12,7 +12,6 @@ class TalePostsController < ApplicationController
     @total_pages = @content_pages.size
 
     @page_content = @content_pages[@page_number] || @content_pages.last
-    TalesViewJob.perform_later(@tale_post)
     @feedback = Feedback.new
   rescue ActiveRecord::RecordNotFound
     redirect_to root_path, alert: "Tale post not found."

@@ -11,29 +11,29 @@
 # tale1.title = "Part I"
 tale1 = TalePost.find_by(title: "Part I")
 tale1.body = <<~CONTENT
-                  She clocked out of her office and rushed to her moped in the parking lot. She tied her hair into a bun, wore a helmet, tucked the loose end of her saree into her waist, and drove away. A green-coloured saree with an off-white coloured blouse was the dress code at her workplace. Driving on an empty road with trees on either side, she navigated all the distractions and carefully contemplated her next steps to win the daily evening game at home.
+                        She clocked out of her office and rushed to her moped in the parking lot. She tied her hair into a bun, wore a helmet, tucked the loose end of her saree into her waist, and drove away. A green-coloured saree with an off-white coloured blouse was the dress code at her workplace. Driving on an empty road with trees on either side, she navigated all the distractions and carefully contemplated her next steps to win the daily evening game at home.
 
-                "It isn't a win until he agrees. We are totally in the lead, but who knows, he might try to pull a sneaky move. I am sure he wouldn't have any planned move, and we shouldn't be too competitive and lose ideas to him like we did with the 'labelling the sock' argument. Let's play dumb and let him figure out his moves. So you will be playing a naive housewife but don't be too naive to fall into his trap. I also think we should add more depth to the character."
+                      "It isn't a win until he agrees. We are totally in the lead, but who knows, he might try to pull a sneaky move. I am sure he wouldn't have any planned move, and we shouldn't be too competitive and lose ideas to him like we did with the 'labelling the sock' argument. Let's play dumb and let him figure out his moves. So you will be playing a naive housewife but don't be too naive to fall into his trap. I also think we should add more depth to the character."
 
-              She loosened her hand on the accelerator, drifted into the side lane, and drove slowly, pondering over it.
+                    She loosened her hand on the accelerator, drifted into the side lane, and drove slowly, pondering over it.
 
-            "Remember that housewife from our recent bank visit? Despite her documents being perfect, the bank people kept her waiting and raised doubts about her documents, expecting a commission. But she was kind, pleasing, and patient. She never lost her temper arguing about her rights but spent her waiting time as if she owned all the time in the world, helping old people with their forms. Finally, it was the bank people who were moved down to her and processed her loan. Let's play her. I think perseverance with kindness and a pleasing attitude would add a little depth to the character."
+                  "Remember that housewife from our recent bank visit? Despite her documents being perfect, the bank people kept her waiting and raised doubts about her documents, expecting a commission. But she was kind, pleasing, and patient. She never lost her temper arguing about her rights but spent her waiting time as if she owned all the time in the world, helping old people with their forms. Finally, it was the bank people who were moved down to her and processed her loan. Let's play her. I think perseverance with kindness and a pleasing attitude would add a little depth to the character."
 
-          She moved back, tilted her head a bit, and got a look at herself in the moped's rearview mirror with a smile of joy. A cool breeze brushed her cheek, broadening the smile on her face and amplifying her delight. All the excitement she had held at higher altitudes until then flew in, blinded her restraint and overwhelmed her to anticipate the ideas to act on after winning.
+                She moved back, tilted her head a bit, and got a look at herself in the moped's rearview mirror with a smile of joy. A cool breeze brushed her cheek, broadening the smile on her face and amplifying her delight. All the excitement she had held at higher altitudes until then flew in, blinded her restraint and overwhelmed her to anticipate the ideas to act on after winning.
 
-        "The photograph should suggest him waiting at a bus stop with all public transport called for a protest. His rest face photograph could be used to replace all the numbers on the clock. Should I click a joyful face of his in an urban landscape or a gloomy face of his in a small town landscape?" Her vehicle bounced over a speed bump a few streets from his office building, causing a sudden jolt that dampened her excitement and set her ideas aside.
+              "The photograph should suggest him waiting at a bus stop with all public transport called for a protest. His rest face photograph could be used to replace all the numbers on the clock. Should I click a joyful face of his in an urban landscape or a gloomy face of his in a small town landscape?" Her vehicle bounced over a speed bump a few streets from his office building, causing a sudden jolt that dampened her excitement and set her ideas aside.
 
-      "I have a question," the character she designed asked innocently. "How is my character going to help you achieve victory? We are not suggesting anything through my character related to our side of the argument: living experience in bigger cities is better than in a small town."
+            "I have a question," the character she designed asked innocently. "How is my character going to help you achieve victory? We are not suggesting anything through my character related to our side of the argument: living experience in bigger cities is better than in a small town."
 
-    "That part of the argument is over if you remember. Oh! you wouldn't possibly know it since you were just created. I’ve designed a few other characters and used them to address that issue, and we’ve successfully proven that living experience in bigger cities is better. It’s just that he couldn’t accept the defeat," she explained to her character as she neared his office.
+          "That part of the argument is over if you remember. Oh! you wouldn't possibly know it since you were just created. I’ve designed a few other characters and used them to address that issue, and we’ve successfully proven that living experience in bigger cities is better. It’s just that he couldn’t accept the defeat," she explained to her character as she neared his office.
 
-  She parked her vehicle in the visitor's parking area, which was filled with women waiting for their fathers, brothers, or husbands to pick them up. Gathering her excitement, she walked toward the security guard. He was occupied with ensuring the safety of the women but smiled as she approached him.
+        She parked her vehicle in the visitor's parking area, which was filled with women waiting for their fathers, brothers, or husbands to pick them up. Gathering her excitement, she walked toward the security guard. He was occupied with ensuring the safety of the women but smiled as she approached him.
 
-"Sir said he might take some time."
+      "Sir said he might take some time."
 
-"Is the manager around?"
+    "Is the manager around?"
 
-"Yes, they're in a meeting. He asked you to go ahead."
+  "Yes, they're in a meeting. He asked you to go ahead."
 
 "Never mind, I'll wait."
 
@@ -67,7 +67,6 @@ She wrote a note that read, "Shall I pack our bags?" and handed it to the securi
 
 She slipped the ticket into one compartment filled with similar tickets and the coins into another. Then she put on her headphones, plugged the jack into her Walkman, flipped the cassette, and tuned into "A Boy Named Sue" by Johnny Cash. On the bus, she sat by the window, lost in the music, and gazed out at the streets with a serene smile.
 
-The same cassette was being played. Changed into her pyjamas, she was occupied preparing his favourite snack. This time, the music came from the tape recorder and the large speakers. The speakers were in the four corners of the main hall's wall, and the tape recorder rested on the centre table. The wall was filled with portraits of them. They included a photograph of two arms stretched out and giving a fist pump, both arms wearing toilet paper rolls like bangles, with the toilet paper rolled over from one arm and rolled under from the other; a photograph of him crouched inside a fridge holding ketchup bottles in his hands; and a photograph of her, tired from labelling socks with a thread and needle, with a pile of socks in front of her to be labelled, among many others.
 The same cassette played on as she changed into her pyjamas and focused on preparing his favourite snack. This time, the music came from the tape recorder and large speakers. The speakers were positioned in the four corners of the main hall, and the tape recorder rested on the centre table. The walls were adorned with portraits of them. Among the photographs were two arms stretched out and giving a fist pump, both arms wearing toilet paper rolls like bangles—one roll wrapped from above and the other from below; another of him crouched inside a fridge, holding ketchup bottles; and a tired image of her holding a sock labelled "L," surrounded by a pile of socks yet to be labelled, with a thread and needle in the other hand.
 
 She sang along, adjusting her pitch until the highs and lows were balanced and the sound was pleasing. Once she achieved the right tone, she patted herself on the back.
@@ -551,18 +550,10 @@ He pulled the keys from his pocket and said with a grin, "I stole them when I wa
 
 As she opened the door,  "You know, robbers watch movies to understand the psyche of the audience and the limits of the mob so they can be sure of what they're capable of."
 
-She playfully hit him.
+She playfully hit him and they both laughed.
 
 Back at home, with the lights turned off, she said, "I think I too have transcended like you... this experience is surreal."
 Not hearing a response from him, she said, "Good night!" and settled down to sleep.
-
-
-They took an auto home. She looked into her handbag for the keys.
-"I cannot find the keys I think I lost them" she panicked.
-
-He takes out keys from his pocket, "I stole them when I was in the character", "You know robbers watch movies to understand the psyche of the audience, the limits of the mob, so when they go for a robbery they can be sure of what they are capable of."
-
-She hits him playfully and they both laugh.
 
 In the quiet of the night, with the lights turned off, she murmured sleepily, "I think I too have transcended like you... this experience is surreal."
 
@@ -578,37 +569,37 @@ tale1.save!
 tale2 = TalePost.find_by(title: "Part II")
 tale2.body =
   <<~CONTENT
-                                                      An irrational fear had sprung him out of his meditative state to consciousness. He hadn't opened his eyes yet, he tried to handle the fear by reciting the wise words his wife had said to him last night after he woke her up, unable to handle the overwhelming anxiety.
+                                                                  An irrational fear had sprung him out of his meditative state to consciousness. He hadn't opened his eyes yet, he tried to handle the fear by reciting the wise words his wife had said to him last night after he woke her up, unable to handle the overwhelming anxiety.
 
-                                                    "It is okay to feel nervous about the result of the play, with the first two plays having left a feeling of dissatisfaction.
-                                                Don't give much thought to the outcome and the excitement associated with it.
-                                            Just stay with the things that are in your control"
+                                                                "It is okay to feel nervous about the result of the play, with the first two plays having left a feeling of dissatisfaction.
+                                                            Don't give much thought to the outcome and the excitement associated with it.
+                                                        Just stay with the things that are in your control"
 
-                                        While reciting them he checked for the presence of the anxiety in him, he found it but he chose to ignore it. He couldn't comfort himself with those words for long. He felt deceived that those wise words didn't have the same effect as they had last night. He tried to keep his spirits up, picturing the consequences of the play's success and it made him feel confident. An intense feeling that he had been in a meditative state for a long time and the expectation that everyone might have risen from their states made him open his eyes. To his surprise, he found all the players and crew still meditating. He rose and walked over to the coach, who was supervising them while flipping through the script pages. The coach had once been the Playmaker. Gardening, writing, reading, nothing could keep the boredom away from him after retirement. He went back to the theatre again, and his presence and availability boosted the morale of the players and crew. As the Playmaker got closer to the Coach, he became reflective about himself and all the inflated confidence fell short of his record, he quickly realized it and inflated it further ignoring his wife's words not to fantasize too much about the outcome.
+                                                    While reciting them he checked for the presence of the anxiety in him, he found it but he chose to ignore it. He couldn't comfort himself with those words for long. He felt deceived that those wise words didn't have the same effect as they had last night. He tried to keep his spirits up, picturing the consequences of the play's success and it made him feel confident. An intense feeling that he had been in a meditative state for a long time and the expectation that everyone might have risen from their states made him open his eyes. To his surprise, he found all the players and crew still meditating. He rose and walked over to the coach, who was supervising them while flipping through the script pages. The coach had once been the Playmaker. Gardening, writing, reading, nothing could keep the boredom away from him after retirement. He went back to the theatre again, and his presence and availability boosted the morale of the players and crew. As the Playmaker got closer to the Coach, he became reflective about himself and all the inflated confidence fell short of his record, he quickly realized it and inflated it further ignoring his wife's words not to fantasize too much about the outcome.
 
-                                    The coach kept the script aside and welcomed the pensive-looking Playmaker into his company. He waited for the players and the crew to emerge from their meditative state so they could talk. The players and the crew began to arise from their meditation making loud noise and making others rise from theirs.
+                                                The coach kept the script aside and welcomed the pensive-looking Playmaker into his company. He waited for the players and the crew to emerge from their meditative state so they could talk. The players and the crew began to arise from their meditation making loud noise and making others rise from theirs.
 
-                                Amidst the noise, the Coach muffled to the Playmaker, "Both versions of the script look intact, we should stick to one of them"
+                                            Amidst the noise, the Coach muffled to the Playmaker, "Both versions of the script look intact, we should stick to one of them"
 
-                            The Playmaker extended his ears to him with a pre-meditative idea of rejecting whatever the coach was going to say, "I cannot hear you"
+                                        The Playmaker extended his ears to him with a pre-meditative idea of rejecting whatever the coach was going to say, "I cannot hear you"
 
-                        Coach cleared his throat and raised his volume, "I was saying, both versions look great, let's stick to one of the versions"
+                                    Coach cleared his throat and raised his volume, "I was saying, both versions look great, let's stick to one of the versions"
 
-                    "Why do you suggest so? From ages, all our plays involved the audience into the play."
+                                "Why do you suggest so? From ages, all our plays involved the audience into the play."
 
-                "Yes, but I am worried about the impact of its result on you. Your emotional state is deteriorating with the failure of the plays. I want you to keep it simple this time and have your fair share of satisfaction for your work."
+                            "Yes, but I am worried about the impact of its result on you. Your emotional state is deteriorating with the failure of the plays. I want you to keep it simple this time and have your fair share of satisfaction for your work."
 
-            "Thank you for your concern. But I am confident, we will pull it off this time and get past that point smoothly."
+                        "Thank you for your concern. But I am confident, we will pull it off this time and get past that point smoothly."
 
-        The Playmaker was not certain as he mentioned, he was shaken from the inside and his trembling hands reflected it.
+                    The Playmaker was not certain as he mentioned, he was shaken from the inside and his trembling hands reflected it.
 
-    "It doesn't seem so. Are you sure?"
+                "It doesn't seem so. Are you sure?"
 
-"If you are still speaking to me with my past two plays in mind. I tried. Not everything lies in my control. I am learning. I am confident about this play, it can smoothly involve the audience."
+            "If you are still speaking to me with my past two plays in mind. I tried. Not everything lies in my control. I am learning. I am confident about this play, it can smoothly involve the audience."
 
-Before the coach could speak the playmaker challenged him, "You wanna take a bet for your fish."
+        Before the coach could speak the playmaker challenged him, "You wanna take a bet for your fish."
 
-He absorbed the Playmaker's blustering swagger and remained silent. One of the crew members hurried towards the Playmaker and informed him that the sample audience group was ready for the narration. The Playmaker rose and paused to accept the wishes from the Coach. As he walked towards the group, he pondered the expression on the Coach's face. While wishing, he felt it didn't complement his words, and that smile on his face resembled a mockery, suggesting that he wouldn't be able to achieve success in this play either. It bothered him, and it started to make him angry. He tried to make peace with his anger, but he had already reached the group of the audience waiting for him. He walked into them, and they formed a semicircle around him. The group included people of diverse age groups. Glancing at them, he took a heavy breath.
+    He absorbed the Playmaker's blustering swagger and remained silent. One of the crew members hurried towards the Playmaker and informed him that the sample audience group was ready for the narration. The Playmaker rose and paused to accept the wishes from the Coach. As he walked towards the group, he pondered the expression on the Coach's face. While wishing, he felt it didn't complement his words, and that smile on his face resembled a mockery, suggesting that he wouldn't be able to achieve success in this play either. It bothered him, and it started to make him angry. He tried to make peace with his anger, but he had already reached the group of the audience waiting for him. He walked into them, and they formed a semicircle around him. The group included people of diverse age groups. Glancing at them, he took a heavy breath.
 
 
 "Alright! Here we all are for the ritual before every play. Oh, I see a few new kids today. Welcome! Here's what we do: I’ll be narrating a story, and after a certain point, I’ll stop, and you’ll watch the rest unfold through the acts of the play. If anyone wants to leave, feel free to do so now, but please not in the middle. Most importantly, stay back after the play—we want to hear your thoughts."
@@ -1033,27 +1024,27 @@ The obedient kid walked over to the kid who should have played his role and, wit
 tale3 = TalePost.find_by(title: "Part III")
 tale3.body =
   <<~CONTENT
-                                With trees alongside the road, the sound of the wind is loud. A whirring noise enters the space, gradually picks up intensity and occupies the entire space. The intensity is maintained, only for the time the sand stays at the neck of an hourglass and, gradually drops at the same pace, leaving the entire space again for the wind. The loose half-sleeve shirt of a 24-year-old boy, standing with his left arm extended and thumb popped out of his fists, flaps on his body soon after the whirring sound has peaked. 
+                                            With trees alongside the road, the sound of the wind is loud. A whirring noise enters the space, gradually picks up intensity and occupies the entire space. The intensity is maintained, only for the time the sand stays at the neck of an hourglass and, gradually drops at the same pace, leaving the entire space again for the wind. The loose half-sleeve shirt of a 24-year-old boy, standing with his left arm extended and thumb popped out of his fists, flaps on his body soon after the whirring sound has peaked. 
 
-                            He has been waiting by the highway under the sun, hoping for a ride for quite some time. He was in a similar situation the day before yesterday but at a different location, where he wants to go now. Nothing had changed, except earlier he was constantly fueled with excitement and energy, thinking about her and all the possibilities of sharing life with her. Now, every thought of her is putting him to work to prevent the demolition of the dream castles he had built and draining his energy. He had forgotten that he hadn't eaten anything or drank water for a long time.
+                                        He has been waiting by the highway under the sun, hoping for a ride for quite some time. He was in a similar situation the day before yesterday but at a different location, where he wants to go now. Nothing had changed, except earlier he was constantly fueled with excitement and energy, thinking about her and all the possibilities of sharing life with her. Now, every thought of her is putting him to work to prevent the demolition of the dream castles he had built and draining his energy. He had forgotten that he hadn't eaten anything or drank water for a long time.
 
-                        He sees a car entering his horizon with a whirring sound; he extends his left arm and pops out his thumb. Only this time, the car doesn't reach its peak when it nears him. The car stops just after passing him, and an elderly man pops out of the window, turns back to him, and waves for him to get in. He picks up his backpack and rushes towards the car. As he gets into the car, the elderly man's wife, in the driving seat, greets him.
+                                    He sees a car entering his horizon with a whirring sound; he extends his left arm and pops out his thumb. Only this time, the car doesn't reach its peak when it nears him. The car stops just after passing him, and an elderly man pops out of the window, turns back to him, and waves for him to get in. He picks up his backpack and rushes towards the car. As he gets into the car, the elderly man's wife, in the driving seat, greets him.
 
-                    The sense of relief in finding the ride doesn't last long, overtaken just like a fast-moving car overtook their halted car while he got in. With his thoughts of hope about finding the ride put to rest and with the prevailing silence in the car, the noise in his head is bright, clear and precise. "I shouldn't have rushed..." "Why do I have to be so excited?" "Why did my parents pamper me so much as a child?" "why didn't my friends contain my excitement?" "I should have let her know who I am and, in fact, more about me.". "Who asks a stranger, 'Will you marry me?'" "And who will say yes to a stranger.".
+                                The sense of relief in finding the ride doesn't last long, overtaken just like a fast-moving car overtook their halted car while he got in. With his thoughts of hope about finding the ride put to rest and with the prevailing silence in the car, the noise in his head is bright, clear and precise. "I shouldn't have rushed..." "Why do I have to be so excited?" "Why did my parents pamper me so much as a child?" "why didn't my friends contain my excitement?" "I should have let her know who I am and, in fact, more about me.". "Who asks a stranger, 'Will you marry me?'" "And who will say yes to a stranger.".
 
-                Each one of his regrets opened a new door, took him to the deepest of the depths until he absorbed self-hatred and popped him out at a new space, strange enough for him to be lost within no time after taking a few steps, with questions "What would you do now? Would you still pursue all those goals of yours? Who would inspire you now? Does this life mean anything to you anymore?" and left him hopeless. As a kid he observed many men in their youth opening these doors and found them always to be sad and depressed; he firmly decided that he would not only never open them but would never even look for their keys. Today he came to know what the keys to those doors look like. Having unlocked a new area in his mental space, he experiences a tinge of excitement generated by the new horizons instead of the expected suffering. Puzzled by this strange feeling, he begins to suffocate and finds it difficult to breathe.
+                            Each one of his regrets opened a new door, took him to the deepest of the depths until he absorbed self-hatred and popped him out at a new space, strange enough for him to be lost within no time after taking a few steps, with questions "What would you do now? Would you still pursue all those goals of yours? Who would inspire you now? Does this life mean anything to you anymore?" and left him hopeless. As a kid he observed many men in their youth opening these doors and found them always to be sad and depressed; he firmly decided that he would not only never open them but would never even look for their keys. Today he came to know what the keys to those doors look like. Having unlocked a new area in his mental space, he experiences a tinge of excitement generated by the new horizons instead of the expected suffering. Puzzled by this strange feeling, he begins to suffocate and finds it difficult to breathe.
 
-            Despite all this, there is something to feel happy about, a distraction—his thoughts now broken loose are no longer rational or sequential. He has no control over them; any thought can take control over him. Compassion for the girl has distracted him from thinking about himself and axing him further. It has taken over his other thoughts, presenting him with the realization of how uncomfortable he might have made her feel. What could she possibly be going through now?
+                        Despite all this, there is something to feel happy about, a distraction—his thoughts now broken loose are no longer rational or sequential. He has no control over them; any thought can take control over him. Compassion for the girl has distracted him from thinking about himself and axing him further. It has taken over his other thoughts, presenting him with the realization of how uncomfortable he might have made her feel. What could she possibly be going through now?
 
-        "Sit comfortably, isn't the bag on your lap heavy? keep it aside." the lady driving the car speaks looking into the rear-view mirror.
+                    "Sit comfortably, isn't the bag on your lap heavy? keep it aside." the lady driving the car speaks looking into the rear-view mirror.
 
-    He sets the bag aside but still sits uncomfortably, as if he the backseat is crowded, trying to give everyone space.
+                He sets the bag aside but still sits uncomfortably, as if he the backseat is crowded, trying to give everyone space.
 
-"sit back and relax," the elderly man says soothingly and passes him a bottle of water
+            "sit back and relax," the elderly man says soothingly and passes him a bottle of water
 
-He finds that his shyness is consuming a lot of his energy in rationally denying their courtesy, so he simply obliges. "Thank you."
+        He finds that his shyness is consuming a lot of his energy in rationally denying their courtesy, so he simply obliges. "Thank you."
 
-"what track were you listening to?"
+    "what track were you listening to?"
 
 "No space in my bag. I had to hang the headphones over my neck. I wasn't listening. The last one I listened to was Rolling Stones"
 

@@ -60,4 +60,4 @@ gem "tailwindcss-rails", "~> 2.7"
 gem 'redcarpet'
 gem 'coderay'
 gem 'dotenv-rails'
-gem 'rubocop', '~> 1.0'
+gem 'rubocop', '~> 1.68'

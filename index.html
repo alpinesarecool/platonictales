@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+<div class="landing-page">
+
+  <header class="landing-header">
+    <h1>Platonic Tales</h1>
+
+    <p>
+      Welcome to Platonic Tales, have a good time!
+    </p>
+  </header>
+
+  <main class="story-list">
+
+    <h2>Stories</h2>
+
+    {% for post in site.posts reversed %}
+      <article class="story-card">
+
+        <h3>
+          <a href="{{ post.url | relative_url }}">
+            {{ post.title }}
+          </a>
+        </h3>
+
+        <p>
+          {{ post.content | strip_html | truncatewords: 45 }}
+        </p>
+
+        <a
+          class="read-link"
+          href="{{ post.url | relative_url }}"
+        >
+          Read →
+        </a>
+
+      </article>
+    {% endfor %}
+
+  </main>
+
+  <footer class="landing-footer">
+    <p>© {{ site.time | date: "%Y" }} Platonic Tales</p>
+
+    <p>
+      <a href="mailto:platonictales@gmail.com">
+        platonictales@gmail.com
+      </a>
+    </p>
+  </footer>
+
+</div>

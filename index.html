@@ -2,46 +2,55 @@
 layout: default
 ---
 
-<div class="landing-page">
+<div class="novella-home">
 
-  <header class="landing-header">
-    <h1>Platonic Tales</h1>
-
-    <p>
-      Welcome to Platonic Tales, have a good time!
-    </p>
+  <header class="novella-header">
+    <h1>It's Unpublished, Yet!</h1>
+    <p class="novella-type">A novella</p>
   </header>
 
-  <main class="story-list">
 
-    <h2>Stories</h2>
+  <main class="novella-contents">
 
-    {% for post in site.posts reversed %}
-      <article class="story-card">
+    <a class="story-entry" href="{{ '/2026/01/01/part-i.html' | relative_url }}">
+      <span class="story-info">
+        <span class="novella-story-title">The Bloom</span>
 
-        <h3>
-          <a href="{{ post.url | relative_url }}">
-            {{ post.title }}
-          </a>
-        </h3>
+        <span class="story-description">
+          After a painful rejection, a young man takes a ride with strangers
+          whose stories seem to know more about him than they should.
+        </span>
+      </span>
+    </a>
 
-        <p>
-          {{ post.content | strip_html | truncatewords: 45 }}
-        </p>
 
-        <a
-          class="read-link"
-          href="{{ post.url | relative_url }}"
-        >
-          Read →
-        </a>
+    <a class="story-entry" href="{{ '/2026/01/02/part-ii.html' | relative_url }}">
+      <span class="story-info">
+        <span class="novella-story-title">The Ripple</span>
 
-      </article>
-    {% endfor %}
+        <span class="story-description">
+          A man's first attempt at directing an impromptu play about a visitor
+          in pursuit of an author who arrives in a remote village.
+        </span>
+      </span>
+    </a>
+
+
+    <a class="story-entry" href="{{ '/2026/01/03/part-iii.html' | relative_url }}">
+      <span class="story-info">
+        <span class="novella-story-title">The Thief and the Critic</span>
+
+        <span class="story-description">
+          Newlyweds settle their silly debates through roleplay, even dressing
+          up as the characters to bring their standpoints to life.
+        </span>
+      </span>
+    </a>
 
   </main>
 
-  <footer class="landing-footer">
+
+  <footer class="novella-footer">
     <p>© {{ site.time | date: "%Y" }} Platonic Tales</p>
 
     <p>

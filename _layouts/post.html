@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<article class="reading-page">
+
+  <header class="story-header">
+    <a class="back-link" href="{{ '/' | relative_url }}">
+      ← Platonic Tales
+    </a>
+
+    <h1 class="story-title">{{ page.title }}</h1>
+
+    <div class="story-rule"></div>
+  </header>
+
+  <div class="story-content">
+    {{ content }}
+  </div>
+
+  <footer class="story-footer">
+    <div class="story-rule"></div>
+
+    <a class="back-link" href="{{ '/' | relative_url }}">
+      Back to stories
+    </a>
+  </footer>
+
+</article>

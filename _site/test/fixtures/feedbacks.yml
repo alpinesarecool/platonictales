@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  tale_post: one
+  page_number: 1
+  title: MyString
+  comment: MyText
+
+two:
+  tale_post: two
+  page_number: 1
+  title: MyString
+  comment: MyText
